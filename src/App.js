@@ -21,7 +21,7 @@ class App extends Component {
                             <ul className="navbar-nav ml-auto my-2 my-lg-0">
                                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">about</a></li>
                                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#services">skills</a></li>
-                                <li classxName="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">projects</a></li>
+                                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">projects</a></li>
                                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">contact</a></li>
                             </ul>
                         </div>
