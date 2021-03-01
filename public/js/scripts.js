@@ -99,6 +99,6 @@
       css.type = "text/css";
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
       document.body.appendChild(css);
-  };s
+  };
   
   })(jQuery); // End of use strict
