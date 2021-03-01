@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.12.1",
     "babel-core": "^6.26.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
