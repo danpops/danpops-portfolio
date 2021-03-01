@@ -1,40 +1,8 @@
 import React from 'react';
-// import logo from './logo.svg';
-import Portfolio from './components/Portfolio'
 import './App.css';
 
 function App() {
-  const portfolioLinks = [
-    {
-      title: 'Threads',
-      caption: 'Illustration'
-    },
-    {
-      title: 'Explore',
-      caption: 'Graphic Design'
-    },
-    {
-      title: 'Finish',
-      caption: 'Identity'
-    },
-    {
-      title: 'Lines',
-      caption: 'Branding'
-    },
-    {
-      title: 'Southwest',
-      caption: 'Website Design'
-    },
-    {
-      title: 'Window',
-      caption: 'Photography'
-    },
-    {
-      title: 'Pizza',
-      caption: 'I love pizza!'
-    }
-  ]
-
+    
   return (
     <div className="App">
 
@@ -71,7 +39,6 @@ function App() {
             </div>
         </header>
 
-  
         <section className="page-section bg-primary" id="about">
             <div className="container">
                 <div className="row justify-content-center">
@@ -123,65 +90,66 @@ function App() {
         </section>
 
         <div id="portfolio">
-        <section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">check out my work on github!</h2>
-                <a class="btn btn-light btn-xl text-lowercase" href="https://github.com/danpops">github/danpops</a>
+        <section className="page-section bg-dark text-white">
+            <div className="container text-center">
+                <h2 className="mb-4">check out my work on github!</h2>
+                <a className="btn btn-light btn-xl text-lowercase" href="https://github.com/danpops">github/danpops</a>
             </div>
         </section>
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="http://www.freshouse.ca">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">www.freshouse.ca</div>
-                                <div class="project-name">shopify : adobe xd : javascript</div>
+            <div className="container-fluid p-0">
+                <div className="row no-gutters">
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="http://www.freshouse.ca">
+                            <a href="https://ibb.co/gjvSmJv"><img className="img-fluid" src="https://i.ibb.co/f18kqH8/1.png" alt="1" border="0" /></a>
+                            <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">www.freshouse.ca</div>
+                                <div className="project-name">shopify : adobe xd : javascript</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://github.com/danpops/ChristmasSoda">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Christmas Soda University</div>
-                                <div class="project-name">java : servlets : jsp</div>
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="https://github.com/danpops/ChristmasSoda">
+                        <a href="https://ibb.co/LSdGr62"><img className="img-fluid" src="https://i.ibb.co/31mJvWL/2.png" alt="2" border="0" /></a>
+
+                            <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">Christmas Soda University</div>
+                                <div className="project-name">java : servlets : jsp</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://github.com/danpops/PubMedSearch">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Pubmed Article Search</div>
-                                <div class="project-name">python : xml</div>
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="https://github.com/danpops/PubMedSearch">
+                        <a href="https://ibb.co/PYKC0ng"><img className="img-fluid" src="https://i.ibb.co/ZJ5T7Px/3.png" alt="3" border="0" /></a>
+                            <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">Pubmed Article Search</div>
+                                <div className="project-name">python : xml</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://drive.google.com/drive/folders/1aqYX-VDzVmgv7sOmwJJsmMwlZ9zjRwHq?usp=sharing">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">WardrobeU</div>
-                                <div class="project-name">ux design : prototyping : proto.io</div>
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="https://drive.google.com/drive/folders/1aqYX-VDzVmgv7sOmwJJsmMwlZ9zjRwHq?usp=sharing">
+                        <a href="https://ibb.co/PYKC0ng"><img className="img-fluid" src="https://i.ibb.co/ZJ5T7Px/3.png" alt="3" border="0" /></a>
+                        <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">WardrobeU</div>
+                                <div className="project-name">ux design : prototyping : proto.io</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://github.com/danpops/Calculator">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Multiline Calculator</div>
-                                <div class="project-name">java</div>
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="https://github.com/danpops/Calculator">
+                        <a href="https://ibb.co/c8yXRjY"><img className="img-fluid" src="https://i.ibb.co/7pSNBqk/5.png" alt="5" border="0" /></a>
+                            <div className="portfolio-box-caption">
+                                <div className="project-category text-white-50">Multiline Calculator</div>
+                                <div className="project-name">java</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="https://github.com/danpops/tictactoe-ios">
-                            <img class="img-fluid" img="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">TicTacToe App</div>
-                                <div class="project-name">swift : xcode : ios</div>
+                    <div className="col-lg-4 col-sm-6">
+                        <a className="portfolio-box" href="https://github.com/danpops/tictactoe-ios">
+                            <a href="https://ibb.co/nDkZb26"><img className="img-fluid" src="https://i.ibb.co/64sVmhr/6.png" alt="6" border="0" /></a>
+                            <div className="portfolio-box-caption p-3">
+                                <div className="project-category text-white-50">TicTacToe App</div>
+                                <div className="project-name">swift : xcode : ios</div>
                             </div>
                         </a>
                     </div>
@@ -189,6 +157,31 @@ function App() {
             </div>
         </div>
 
+        <section className="page-section" id="contact">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-lg-8 text-center">
+                        <h2 className="mt-0">let's get in touch!</h2>
+                        <hr className="divider my-4" />
+                        <p className="text-muted mb-5">i am eager to begin my journey as a software engineer!</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                        <i className="fab fa-linkedin-in fa-3x mb-3 text-muted"></i>
+                        <div><a href="https://www.linkedin.com/in/danpops">linkedin/danpops</a></div>
+                    </div>
+                    <div className="col-lg-4 mr-auto text-center">
+                        <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                        <a className="d-block" href="mailto:dan-popovic@hotmail.com">dan-popovic@hotmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer className="bg-light py-5">
+            <div className="container"><div className="small text-center text-muted">© 2021 - danpops.github.io</div></div>
+        </footer>
     </div>
   );
 }
