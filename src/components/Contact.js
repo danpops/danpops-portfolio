@@ -20,7 +20,7 @@ export default class Contact extends Component {
                             </div>
                             <div className="col-lg-4 mr-auto text-center">
                                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                                <a className="d-block" href="mailto:dan-popovic@hotmail.com">dan-popovic@hotmail.com</a>
+                                <a className="d-block" href="mailto:me@danpops.ca">me@danpops.ca</a>
                             </div>
                         </div>
                     </div>

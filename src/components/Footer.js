@@ -5,7 +5,7 @@ export default class About extends Component {
       return (
             <div>
                 <footer className="bg-light py-5">
-                    <div className="container"><div className="small text-center text-muted">© 2021 - danpops.github.io</div></div>
+                    <div className="container"><div className="small text-center text-muted">© 2021 - danpops.ca</div></div>
                 </footer>
             </div>
         )
