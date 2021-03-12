@@ -474,7 +474,33 @@ mark,
   content: "— ";
 }
 
-.img-fluid {
+.img-fluid1 {
+  max-width: 100%;
+  height: auto;
+  background-image: url("./img/portfolio/1.jpg")
+}
+
+.img-fluid2 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid3 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid4 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid5 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid6 {
   max-width: 100%;
   height: auto;
 }

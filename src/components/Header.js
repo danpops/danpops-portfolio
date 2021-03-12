@@ -14,15 +14,15 @@ export default class Header extends Component {
                                 <hr className="divider my-4" />
                             </div>
                             <div className="col-lg-8 align-self-baseline">
-                                <h3 className="typewrite text-white-75 font-weight-light mb-5">
+                                <h5 className="typewrite text-white-75 font-weight-light mb-5">
                                 <Typewriter
                                     options={{
-                                        strings: ['software engineer.', 'ux designer.', 'innovator.'],
+                                        strings: ['software engineer.', 'i speak java and python.', 'i also speak javascript.'],
                                         autoStart: true,
                                         loop: true,
                                     }}
                                 />
-                                </h3>
+                                </h5>
                                 <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
                             </div>
                         </div>
