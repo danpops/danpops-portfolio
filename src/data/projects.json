@@ -1,0 +1,38 @@
+[
+    {
+        "location": "http://www.freshouse.ca",
+        "image": "https://danpops.ca/images_folder/freshouse.jpg",
+        "title": "freshouse.ca",
+        "description": "javascript : adobe xd"
+    },
+    {
+        "location": "https://github.com/danpops/tictactoe-ios",
+        "image": "https://danpops.ca/images_folder/tictactoe.jpg",
+        "title": "tic tac toe ios",
+        "description": "swift"
+    },
+    {
+        "location": "https://github.com/danpops/java-calculator",
+        "image": "https://danpops.ca/images_folder/calculator.jpg",
+        "title": "multiline calculator",
+        "description": "java"
+    },
+    {
+        "location": "https://github.com/danpops/discogs-decisive",
+        "image": "https://danpops.ca/images_folder/discogsdecisive.jpg",
+        "title": "discogs decisive cli",
+        "description": "python"
+    },
+    {
+        "location": "https://github.com/danpops/mymail-cli",
+        "image": "https://danpops.ca/images_folder/mymail.jpg",
+        "title": "mymail cli",
+        "description": "python"
+    },
+    {
+        "location": "https://github.com/danpops/organize-files",
+        "image": "https://danpops.ca/images_folder/organize.jpg",
+        "title": "file organizer",
+        "description": "python"
+    }
+]

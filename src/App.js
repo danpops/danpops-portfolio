@@ -3,7 +3,7 @@ import './assets/css/styles.css'
 import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
-import Portfoliio from './components/Portfolio'
+import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -17,7 +17,7 @@ class App extends Component {
                 <Header></Header>
                 <About></About>
                 <Skills></Skills>
-                <Portfoliio></Portfoliio>
+                <Portfolio></Portfolio>
                 <Contact></Contact>
                 <Footer></Footer>
 
