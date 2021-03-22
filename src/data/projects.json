@@ -12,10 +12,10 @@
         "description": "swift"
     },
     {
-        "location": "https://github.com/danpops/java-calculator",
-        "image": "https://danpops.ca/images_folder/calculator.jpg",
-        "title": "multiline calculator",
-        "description": "java"
+        "location": "https://github.com/danpops/sms-spam-filter",
+        "image": "https://danpops.ca/images_folder/smsspam.jpg",
+        "title": "sms spam filter",
+        "description": "python"
     },
     {
         "location": "https://github.com/danpops/discogs-decisive",
