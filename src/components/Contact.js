@@ -18,7 +18,7 @@ export default class Contact extends Component {
                                 <i className="fab fa-linkedin-in fa-3x mb-3 text-muted"></i>
                                 <div><a href="https://www.linkedin.com/in/danpops">linkedin/danpops</a></div>
                             </div>
-                            <div className="col-lg-4 mr-auto text-center">
+                            <div className="col-lg-4 mr-auto text-center mb-5 mb-lg-0">
                                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
                                 <a className="d-block" href="mailto:me@danpops.ca">me@danpops.ca</a>
                             </div>
