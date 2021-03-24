@@ -34,5 +34,23 @@
         "image": "https://danpops.ca/images_folder/organize.jpg",
         "title": "file organizer",
         "description": "python"
+    },
+    {
+        "location": "https://github.com/danpops/java-calculator",
+        "image": "https://danpops.ca/images_folder/calculator.jpg",
+        "title": "multiline calulator",
+        "description": "java"
+    },
+    {
+        "location": "https://github.com/danpops/username-generator",
+        "image": "https://danpops.ca/images_folder/username.jpg",
+        "title": "username generator",
+        "description": "python"
+    },
+    {
+        "location": "https://github.com/danpops/danpops-portfolio",
+        "image": "https://danpops.ca/images_folder/portfolio.jpg",
+        "title": "my portfolio",
+        "description": "react.js"
     }
 ]
