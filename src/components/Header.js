@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Typewriter from 'typewriter-effect'
 export default class Header extends Component {
-    
+
   render() {
       return (
             <div>
@@ -17,7 +17,7 @@ export default class Header extends Component {
                                 <h5 className="typewrite text-white-75 font-weight-light mb-5">
                                 <Typewriter
                                     options={{
-                                        strings: ['software engineer.', 'i speak java and python.', 'i also speak javascript.'],
+                                        strings: ['software engineer.', 'i speak python and java.', 'i also speak javascript.'],
                                         autoStart: true,
                                         loop: true,
                                     }}
@@ -29,6 +29,6 @@ export default class Header extends Component {
                     </div>
                 </header>
             </div>
-        )   
+        )
     }
 }
