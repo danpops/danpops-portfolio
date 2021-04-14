@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './assets/css/styles.css'
+import Navigation from './components/Navigation'
 import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -13,7 +14,8 @@ class App extends Component {
         return (
 
             <div className="App">
-
+                
+                <Navigation></Navigation>
                 <Header></Header>
                 <About></About>
                 <Skills></Skills>

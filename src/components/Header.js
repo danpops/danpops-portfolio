@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Typewriter from 'typewriter-effect'
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export default class Header extends Component {
 
   render() {
@@ -15,15 +17,18 @@ export default class Header extends Component {
                             </div>
                             <div className="col-lg-8 align-self-baseline">
                                 <h5 className="typewrite text-white-75 font-weight-light mb-5">
-                                <Typewriter
-                                    options={{
-                                        strings: ['software engineer.', 'i speak python and java.', 'i also speak javascript.'],
-                                        autoStart: true,
-                                        loop: true,
-                                    }}
-                                />
+                                    <Typewriter
+                                        options={{
+                                            strings: ['software engineer.', 'i speak python and java.', 'i also speak javascript.'],
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
                                 </h5>
-                                <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
+
+                                <Link to="about" smooth={true} duration={500}>
+                                    <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
+                                </Link>
                             </div>
                         </div>
                     </div>
