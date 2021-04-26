@@ -19,7 +19,7 @@ export default class Header extends Component {
                                 <h5 className="typewrite text-white-75 font-weight-light mb-5">
                                     <Typewriter
                                         options={{
-                                            strings: ['software engineer.', 'i speak python and java.', 'i also speak javascript.'],
+                                            strings: ['frontend developer.', 'i build react and angular applications.', 'i can also code in python.'],
                                             autoStart: true,
                                             loop: true,
                                         }}

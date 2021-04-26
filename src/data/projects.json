@@ -24,10 +24,10 @@
         "description": "python"
     },
     {
-        "location": "https://github.com/danpops/mymail-cli",
-        "image": "https://danpops.ca/images_folder/mymail.jpg",
-        "title": "mymail cli",
-        "description": "python"
+        "location": "https://github.com/danpops/burger-or-steak",
+        "image": "https://danpops.ca/images_folder/burger.jpg",
+        "title": "burger or steak?",
+        "description": "angular : typescript"
     },
     {
         "location": "https://github.com/danpops/tictactoe-ios",
