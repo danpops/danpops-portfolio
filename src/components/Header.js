@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Typewriter from 'typewriter-effect'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default class Header extends Component {
 
@@ -11,15 +11,15 @@ export default class Header extends Component {
                     <div className="container h-100">
                         <div className="row h-100 align-items-center justify-content-center text-center">
                             <div className="col-lg-10 align-self-end">
-                                <h1 className="text-white font-weight-bold">hello,</h1>
-                                <h2 className="text-white font-weight-bold">i'm daniel popovic!</h2>
+                                <h1 className="text-white font-weight-bold">hello!</h1>
+                                <h2 className="text-white font-weight-bold">i'm daniel popovic</h2>
                                 <hr className="divider my-4" />
                             </div>
                             <div className="col-lg-8 align-self-baseline">
-                                <h5 className="typewrite text-white-75 font-weight-light mb-5">
+                                <h5 className="typewrite text-white-75 mb-5">
                                     <Typewriter
                                         options={{
-                                            strings: ['frontend developer.', 'i build react and angular applications.', 'i can also code in python.'],
+                                            strings: ["i'm a developer.", "i build web applications.", "i love coding in python."],
                                             autoStart: true,
                                             loop: true,
                                         }}

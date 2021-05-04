@@ -1,12 +1,8 @@
-import React, { Component } from 'react'
-import './assets/css/styles.css'
-import Navigation from './components/Navigation'
-import Header from './components/Header'
-import About from './components/About'
-import Skills from './components/Skills'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import React, { Component } from 'react';
+
+import './assets/css/styles.css';
+
+import { Navigation, Header, About, Skills, Portfolio, Contact, Footer } from './components/Index';
 
 class App extends Component {
     render() {

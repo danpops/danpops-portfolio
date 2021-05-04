@@ -6,18 +6,6 @@
         "description": "javascript : adobe xd"
     },
     {
-        "location": "https://github.com/danpops/automatic-s3-uploader",
-        "image": "https://danpops.ca/images_folder/awspy.jpg",
-        "title": "automatic s3 file uploader",
-        "description": "python : aws"
-    },
-    {
-        "location": "https://github.com/danpops/sms-spam-filter",
-        "image": "https://danpops.ca/images_folder/smsspam.jpg",
-        "title": "sms spam filter",
-        "description": "python"
-    },
-    {
         "location": "https://github.com/danpops/discogs-decisive",
         "image": "https://danpops.ca/images_folder/discogsdecisive.jpg",
         "title": "discogs decisive cli",
@@ -30,27 +18,21 @@
         "description": "angular : typescript"
     },
     {
+        "location": "https://github.com/danpops/automatic-s3-uploader",
+        "image": "https://danpops.ca/images_folder/awspy.jpg",
+        "title": "automatic s3 file uploader",
+        "description": "python : aws"
+    },
+    {
+        "location": "https://github.com/danpops/sms-spam-filter",
+        "image": "https://danpops.ca/images_folder/smsspam.jpg",
+        "title": "sms spam filter",
+        "description": "python"
+    },
+    {
         "location": "https://github.com/danpops/tictactoe-ios",
         "image": "https://danpops.ca/images_folder/tictactoe.jpg",
         "title": "tic tac toe ios",
         "description": "swift"
-    },
-    {
-        "location": "https://github.com/danpops/java-calculator",
-        "image": "https://danpops.ca/images_folder/calculator.jpg",
-        "title": "multiline calulator",
-        "description": "java"
-    },
-    {
-        "location": "https://github.com/danpops/username-generator",
-        "image": "https://danpops.ca/images_folder/username.jpg",
-        "title": "username generator",
-        "description": "python"
-    },
-    {
-        "location": "https://github.com/danpops/danpops-portfolio",
-        "image": "https://danpops.ca/images_folder/portfolio.jpg",
-        "title": "my portfolio",
-        "description": "react.js"
     }
 ]

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Script from 'react-load-script'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default class Navigation extends Component {
     render() {
