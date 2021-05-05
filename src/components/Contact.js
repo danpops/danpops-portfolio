@@ -9,13 +9,13 @@ export default class Contact extends Component {
                 <section className="page-section" id="contact">
                     <div className="container">
                         <div className="row justify-content-center">
-                            <Bounce bottom>
-                                <div className="col-lg-8 text-center">
+                            <div className="col-lg-8 text-center">
+                                <Bounce bottom>
                                     <h2 className="mt-0">let's get in touch!</h2>
                                     <hr className="divider my-4" />
                                     <p className="text-muted mb-5">i am eager to begin my journey as a software engineer!</p>
-                                </div>
-                            </Bounce>
+                                </Bounce>
+                            </div>
                         </div>
                         <div className="row">
                             <Roll left>
