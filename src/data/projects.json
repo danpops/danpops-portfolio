@@ -18,10 +18,10 @@
         "description": "angular : typescript"
     },
     {
-        "location": "https://github.com/danpops/automatic-s3-uploader",
-        "image": "https://danpops.ca/images_folder/awspy.jpg",
-        "title": "automatic s3 file uploader",
-        "description": "python : aws"
+        "location": "https://github.com/danpops/weather-app",
+        "image": "https://danpops.ca/images_folder/weather.jpg",
+        "title": "weather app",
+        "description": "react.js"
     },
     {
         "location": "https://github.com/danpops/sms-spam-filter",
