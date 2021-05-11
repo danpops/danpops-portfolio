@@ -20,7 +20,7 @@ export default class Portfolio extends Component {
 
 
                 <div className="container-fluid p-0">
-                    <div className="row no-gutters bg-dark">
+                    <div className="row no-gutters bg-primary">
                         {data.map((project, index) => (
                             <PortfolioCard
                                 key={index}

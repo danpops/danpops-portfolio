@@ -20,7 +20,7 @@ class Header extends Component {
         return (
             <div>
                 <header class="masthead">
-                    <ParticlesBg num={20} color="007bff" type="circle" bg={true} />
+                    <ParticlesBg num={250} type="lines" bg={true} />
                     <div className="container h-100">
                         <div className="row h-100 align-items-center justify-content-center text-center">
                             <div className="col-lg-10 align-self-end">
@@ -34,19 +34,19 @@ class Header extends Component {
                             </div>
                             <div className="col-lg-8 align-self-baseline">
                                 <Wobble>
-                                    <h3 className="typewrite text-white mb-5">
+                                    <h5 className="typewrite text-white mb-5">
                                         <Typewriter
                                             options={{
-                                                strings: ["i'm a developer.", "i build web applications.", "i love coding in python."],
+                                                strings: ["i'm a developer.", "i build web applications.", "i also love coding in python."],
                                                 autoStart: true,
                                                 loop: true,
                                             }}
                                         />
-                                    </h3>
+                                    </h5>
                                 </Wobble>
                                 <Zoom>
                                     <Link to="about" smooth={true} duration={1000}>
-                                        <a className="btn btn-light btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
+                                        <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
                                     </Link>
                                 </Zoom>
                             </div>

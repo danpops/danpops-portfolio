@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
 import Zoom from 'react-reveal/Zoom';
 
-import useSound from 'use-sound';
-import talonsSfx from '../assets/audio/largetalons.mp3';
-
-
 export default class Skills extends Component {
     render() {
-
-        const TalonsEasterEgg = () => {
-            const [play] = useSound(talonsSfx);
-            return <h3 onClick={play} className="h4 mb-2">work ethic</h3>;
-        };
 
         return (
             <div>
@@ -53,7 +44,7 @@ export default class Skills extends Component {
                                 <Zoom right>
                                     <div className="mt-5">
                                         <i className="fas fa-4x fa-briefcase text-primary mb-4"></i>
-                                        <TalonsEasterEgg />
+                                        <h3 className="h4 mb-2">work ethic</h3>
                                         <p className="text-muted mb-0">rapid learner, thorough, analytical, entrepreneurial attitude</p>
                                     </div>
                                 </Zoom>
