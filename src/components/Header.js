@@ -20,7 +20,7 @@ class Header extends Component {
         return (
             <div>
                 <header class="masthead">
-                    <ParticlesBg type="lines" bg={true} />
+                    <ParticlesBg num={20} color="007bff" type="circle" bg={true} />
                     <div className="container h-100">
                         <div className="row h-100 align-items-center justify-content-center text-center">
                             <div className="col-lg-10 align-self-end">
@@ -46,7 +46,7 @@ class Header extends Component {
                                 </Wobble>
                                 <Zoom>
                                     <Link to="about" smooth={true} duration={1000}>
-                                        <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
+                                        <a className="btn btn-light btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
                                     </Link>
                                 </Zoom>
                             </div>
