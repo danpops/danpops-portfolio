@@ -4,6 +4,10 @@ body, html {
   height: 100%;
 }
 
+h1 {
+  font-size: xx-large;
+}
+
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -34,7 +38,8 @@ hr.divider.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to top, rgba(66, 77, 92, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  /* background: linear-gradient(to top, rgba(66, 77, 92, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg"); */
+  background: transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -167,16 +172,21 @@ header.masthead h1 {
     }
     #mainNav .navbar-brand {
       color: rgba(255, 255, 255, 0.7);
+      /* color: rgb(0, 0, 0); */
+
     }
     #mainNav .navbar-brand:hover {
       color: #fff;
+      /* color: rgb(0, 0, 0); */
     }
     #mainNav .navbar-nav .nav-item .nav-link {
-      color: rgba(255, 255, 255, 0.7);
+      /* color: rgba(255, 255, 255, 0.7); */
       padding: 0 1rem;
     }
     #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fff;
+      /* color: rgb(0, 0, 0); */
+
     }
     #mainNav .navbar-nav .nav-item:last-child .nav-link {
       padding-right: 0;

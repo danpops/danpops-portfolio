@@ -1,27 +1,40 @@
 import React, { Component } from 'react'
 import Typewriter from 'typewriter-effect'
+import ParticlesBg from 'particles-bg';
 import { Link } from "react-scroll";
-import Tada from 'react-reveal/Tada';
 import Zoom from 'react-reveal/Zoom';
+import Wobble from 'react-reveal/Wobble';
 
-export default class Header extends Component {
+import useSound from 'use-sound';
+import oofSfx from '../assets/audio/mc_oof.mp3';
+
+class Header extends Component {
 
     render() {
+
+        const OofHeader = () => {
+            const [play] = useSound(oofSfx);
+            return <h1 onClick={play} className="text-white" >hello!</h1>;
+        };
+
         return (
             <div>
-                <header className="masthead">
+                <header class="masthead">
+                    <ParticlesBg type="lines" bg={true} />
                     <div className="container h-100">
                         <div className="row h-100 align-items-center justify-content-center text-center">
                             <div className="col-lg-10 align-self-end">
-                                <Tada>
-                                    <h1 className="text-white font-weight-bold">hello!</h1>
-                                    <h2 className="text-white font-weight-bold">i'm daniel popovic</h2>
-                                </Tada>
+                                <Zoom right>
+                                    <OofHeader />
+                                </Zoom>
+                                <Zoom left>
+                                    <h2 className="text-white">i'm daniel popovic</h2>
+                                </Zoom>
                                 <hr className="divider my-4" />
                             </div>
                             <div className="col-lg-8 align-self-baseline">
-                                <Tada>
-                                    <h5 className="typewrite text-white-75 mb-5">
+                                <Wobble>
+                                    <h3 className="typewrite text-white mb-5">
                                         <Typewriter
                                             options={{
                                                 strings: ["i'm a developer.", "i build web applications.", "i love coding in python."],
@@ -29,10 +42,10 @@ export default class Header extends Component {
                                                 loop: true,
                                             }}
                                         />
-                                    </h5>
-                                </Tada>
+                                    </h3>
+                                </Wobble>
                                 <Zoom>
-                                    <Link to="about" smooth={true} duration={500}>
+                                    <Link to="about" smooth={true} duration={1000}>
                                         <a className="btn btn-primary btn-xl js-scroll-trigger text-lowercase" href="#about">who am i?</a>
                                     </Link>
                                 </Zoom>
@@ -44,3 +57,5 @@ export default class Header extends Component {
         )
     }
 }
+
+export default Header;

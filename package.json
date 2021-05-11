@@ -8,6 +8,7 @@
     "babel-core": "^6.26.3",
     "bootstrap": "^4.6.0",
     "gsap": "^3.6.1",
+    "particles-bg": "^2.5.5",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-animate-on-scroll": "^2.1.5",
@@ -16,11 +17,12 @@
     "react-load-script": "^0.0.6",
     "react-reveal": "^1.2.2",
     "react-script-tag": "^1.1.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^1.1.5",
     "react-scroll": "^1.8.2",
     "reactstrap": "^8.9.0",
     "typewriter-effect": "^2.17.0",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "use-sound": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,18 +32,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

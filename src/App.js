@@ -5,8 +5,9 @@ import './assets/css/styles.css';
 import { Navigation, Header, About, Skills, Portfolio, Contact, Footer } from './components/Index';
 
 class App extends Component {
-    render() {
     
+    render() {
+
         return (
 
             <div className="App">
