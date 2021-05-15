@@ -1,26 +1,15 @@
 import React, { Component } from 'react'
 import PortfolioCard from "./PortfolioCard"
 import data from "../data/projects.json"
-import Bounce from 'react-reveal/Bounce';
 
 export default class Portfolio extends Component {
 
     render() {
         return (
             <div id="portfolio">
-                <section className="page-section bg-dark text-white">
-                    <div className="container text-center">
-                        <i className="fab fa-6x fa-github text-white mb-4"></i>
-                        <Bounce bottom>
-                            <h2 className="mb-4">check out my work on github!</h2>
-                            <a className="btn btn-light btn-xl text-lowercase" href="https://github.com/danpops">github/danpops</a>
-                        </Bounce>
-                    </div>
-                </section>
-
 
                 <div className="container-fluid p-0">
-                    <div className="row no-gutters bg-primary">
+                    <div className="row no-gutters bg-dark">
                         {data.map((project, index) => (
                             <PortfolioCard
                                 key={index}
@@ -32,6 +21,7 @@ export default class Portfolio extends Component {
                         ))}
                     </div>
                 </div>
+
             </div>
         )
     }

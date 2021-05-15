@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 
 import './assets/css/styles.css';
 
-import { Navigation, Header, About, Skills, Portfolio, Contact, Footer } from './components/Index';
+import { 
+    Navigation, 
+    Header, 
+    About, 
+    Skills, 
+    Portfolio, 
+    GithubLink, 
+    Contact, 
+    Footer 
+} from './components/Index';
 
 class App extends Component {
     
@@ -12,13 +21,14 @@ class App extends Component {
 
             <div className="App">
                 
-                <Navigation></Navigation>
-                <Header></Header>
-                <About></About>
-                <Skills></Skills>
-                <Portfolio></Portfolio>
-                <Contact></Contact>
-                <Footer></Footer>
+                <Navigation />
+                <Header />
+                <About />
+                <Skills />
+                <Portfolio />
+                <GithubLink />
+                <Contact />
+                <Footer />
 
             </div>
         );
