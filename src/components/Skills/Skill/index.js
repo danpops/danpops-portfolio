@@ -1,4 +1,5 @@
 import React from 'react'
+import { Col } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom'
 
 const Skill = ({
@@ -9,7 +10,7 @@ const Skill = ({
   bottom = false,
 }) => {
   return (
-    <div className="col-lg-3 col-md-6 text-center">
+    <Col lg={3} md={6} className="text-center">
       <Zoom left={left} right={right} bottom={bottom}>
         <div className="mt-5">
           <i className="fas fa-4x fa-user-graduate text-primary mb-4"></i>
@@ -17,7 +18,7 @@ const Skill = ({
           <p className="text-muted mb-0">{description}</p>
         </div>
       </Zoom>
-    </div>
+    </Col>
   )
 }
 

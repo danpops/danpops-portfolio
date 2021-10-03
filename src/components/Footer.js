@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 import useSound from 'use-sound'
 import talonsSfx from '../assets/audio/largetalons.mp3'
 
@@ -13,13 +14,11 @@ const Footer = () => {
   }
 
   return (
-    <div>
-      <footer className="bg-light py-5">
-        <div className="container">
-          <TalonsEasterEgg />
-        </div>
-      </footer>
-    </div>
+    <footer className="bg-light py-5">
+      <Container>
+        <TalonsEasterEgg />
+      </Container>
+    </footer>
   )
 }
 

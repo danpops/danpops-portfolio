@@ -1,9 +1,10 @@
 import React from 'react'
+import { Col } from 'react-bootstrap'
 import Bounce from 'react-reveal/Bounce'
 
 const PortfolioCard = (props) => {
   return (
-    <div className="col-lg-4 col-sm-6">
+    <Col lg={4} sm={6}>
       <Bounce>
         <a className="portfolio-box" href={props.location}>
           <img className="img-fluid" src={props.image} alt={props.title} />
@@ -15,7 +16,7 @@ const PortfolioCard = (props) => {
           </div>
         </a>
       </Bounce>
-    </div>
+    </Col>
   )
 }
 

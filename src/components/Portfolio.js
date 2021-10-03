@@ -1,12 +1,13 @@
 import React from 'react'
+import { Container, Row } from 'react-bootstrap'
 import PortfolioCard from './PortfolioCard'
 import projects from '../data/projects.json'
 
 const Portfolio = () => {
   return (
-    <div id="portfolio">
-      <div className="container-fluid p-0">
-        <div className="row no-gutters bg-dark">
+    <section id="portfolio">
+      <Container fluid className="p-0">
+        <Row className="no-gutters bg-dark">
           {projects.map((project, index) => (
             <PortfolioCard
               key={index}
@@ -16,9 +17,9 @@ const Portfolio = () => {
               description={project.description}
             />
           ))}
-        </div>
-      </div>
-    </div>
+        </Row>
+      </Container>
+    </section>
   )
 }
 
