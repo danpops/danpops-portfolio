@@ -2,7 +2,7 @@ import React from 'react'
 import Skill from './Skill'
 import Zoom from 'react-reveal/Zoom'
 
-import skills from '../../data/skills.json'
+import skills from '../../data/skills'
 
 const Skills = () => {
   return (
@@ -16,6 +16,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <Skill
               key={index}
+              icon={skill.icon}
               left={skill.left}
               right={skill.right}
               header={skill.header}

@@ -40,7 +40,7 @@ const Header = () => {
                   options={{
                     strings: [
                       "i'm a software engineer.",
-                      'i build web applications.',
+                      'i build stuff for the web.',
                       'nice to meet you :) !',
                     ],
                     autoStart: true,

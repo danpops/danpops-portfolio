@@ -5,6 +5,7 @@ import Zoom from 'react-reveal/Zoom'
 const Skill = ({
   header,
   description,
+  icon,
   left = false,
   right = false,
   bottom = false,
@@ -13,7 +14,7 @@ const Skill = ({
     <Col lg={3} md={6} className="text-center">
       <Zoom left={left} right={right} bottom={bottom}>
         <div className="mt-5">
-          <i className="fas fa-4x fa-user-graduate text-primary mb-4"></i>
+          {icon}
           <h3 className="h4 mb-2">{header}</h3>
           <p className="text-muted mb-0">{description}</p>
         </div>
