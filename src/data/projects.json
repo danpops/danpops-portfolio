@@ -1,38 +1,38 @@
 [
-    {
-        "location": "http://www.freshouse.ca",
-        "image": "https://danpops.ca/images_folder/freshouse.jpg",
-        "title": "freshouse.ca",
-        "description": "javascript : adobe xd"
-    },
-    {
-        "location": "https://github.com/danpops/discogs-decisive",
-        "image": "https://danpops.ca/images_folder/discogsdecisive.jpg",
-        "title": "discogs decisive cli",
-        "description": "python"
-    },
-    {
-        "location": "https://github.com/danpops/burger-or-steak",
-        "image": "https://danpops.ca/images_folder/burger.jpg",
-        "title": "burger or steak?",
-        "description": "angular : typescript"
-    },
-    {
-        "location": "https://www.danpops.ca/weather-app",
-        "image": "https://danpops.ca/images_folder/weather.jpg",
-        "title": "weather app",
-        "description": "react.js"
-    },
-    {
-        "location": "https://github.com/danpops/sms-spam-filter",
-        "image": "https://danpops.ca/images_folder/smsspam.jpg",
-        "title": "sms spam filter",
-        "description": "python"
-    },
-    {
-        "location": "https://github.com/danpops/tictactoe-ios",
-        "image": "https://danpops.ca/images_folder/tictactoe.jpg",
-        "title": "tic tac toe ios",
-        "description": "swift"
-    }
+  {
+    "location": "http://www.freshouse.ca",
+    "image": "https://danpops.ca/images_folder/freshouse.jpg",
+    "title": "freshouse.ca",
+    "description": "javascript : adobe xd"
+  },
+  {
+    "location": "https://github.com/danpops/discogs-decisive",
+    "image": "https://danpops.ca/images_folder/discogsdecisive.jpg",
+    "title": "discogs decisive cli",
+    "description": "python"
+  },
+  {
+    "location": "https://github.com/danpops/burger-or-steak",
+    "image": "https://danpops.ca/images_folder/burger.jpg",
+    "title": "burger or steak?",
+    "description": "angular : typescript"
+  },
+  {
+    "location": "https://www.danpops.ca/weather-app",
+    "image": "https://danpops.ca/images_folder/weather.jpg",
+    "title": "weather app",
+    "description": "react.js"
+  },
+  {
+    "location": "https://github.com/danpops/sms-spam-filter",
+    "image": "https://danpops.ca/images_folder/smsspam.jpg",
+    "title": "sms spam filter",
+    "description": "python"
+  },
+  {
+    "location": "https://github.com/danpops/tictactoe-ios",
+    "image": "https://danpops.ca/images_folder/tictactoe.jpg",
+    "title": "tic tac toe ios",
+    "description": "swift"
+  }
 ]

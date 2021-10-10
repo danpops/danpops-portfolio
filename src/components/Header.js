@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <header class="masthead">
-      <ParticlesBg num={250} type="lines" bg={true} />
+      <ParticlesBg num={150} type="lines" bg={true} />
       <Container className="h-100">
         <Row className="h-100 align-items-center justify-content-center text-center">
           <Col lg={10} className="align-self-end">
@@ -39,7 +39,7 @@ const Header = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      "i'm a software engineer.",
+                      "agile software engineer.",
                       'i build stuff for the web.',
                       'nice to meet you :) !',
                     ],
