@@ -22,7 +22,7 @@ export default class Navigation extends Component {
           <Container>
             <Link to="page-top" smooth={true} duration={500}>
               <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                daniel popovic_
+                {'<danpops />'}
               </a>
             </Link>
 
