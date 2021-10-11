@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import useSound from 'use-sound'
 
-import talonsSfx from '../assets/audio/largetalons.mp3'
+import talonsSfx from '../../assets/audio/largetalons.mp3'
 
 const Footer = () => {
   const TalonsEasterEgg = () => {

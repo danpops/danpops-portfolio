@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom'
 import Wobble from 'react-reveal/Wobble'
 import useSound from 'use-sound'
 
-import oofSfx from '../assets/audio/mc_oof.mp3'
+import oofSfx from '../../assets/audio/mc_oof.mp3'
 
 const Header = () => {
   const OofHeader = () => {

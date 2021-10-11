@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap'
 
 import PortfolioCard from './PortfolioCard'
 
-import projects from '../assets/data/projects'
+import projects from '../../assets/data/projects'
 
 const Portfolio = () => {
   return (
