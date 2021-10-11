@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
 import Script from 'react-load-script'
 import { Link } from 'react-scroll'
-import links from '../data/navlinks.json'
+import links from '../data/navLinks.js'
 
 export default class Navigation extends Component {
   render() {
