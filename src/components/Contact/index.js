@@ -15,8 +15,8 @@ const Contact = () => {
             <hr className="divider my-4" />
             <p className="text-muted mb-5">
               although i'm not currently looking for any new opportunities, i'm
-              open to <br /> answering questions or providing advice. feel free
-              to contact me!
+              open to answering questions or providing advice. feel free to
+              contact me!
             </p>
           </Bounce>
         </Col>

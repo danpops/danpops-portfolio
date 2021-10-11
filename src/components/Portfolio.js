@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import PortfolioCard from './PortfolioCard'
-import projects from '../data/projects.json'
+import projects from '../data/projects'
 
 const Portfolio = () => {
   return (
