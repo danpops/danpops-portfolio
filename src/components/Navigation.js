@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 import Script from 'react-load-script'
 
-import links from '../data/navLinks.js'
+import links from '../assets/data/navLinks.js'
 
 export default class Navigation extends Component {
   render() {
