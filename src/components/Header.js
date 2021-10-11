@@ -1,12 +1,12 @@
 import React from 'react'
+import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
 import ParticlesBg from 'particles-bg'
-import { Link } from 'react-scroll'
-import { Container, Row, Col, Button } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom'
 import Wobble from 'react-reveal/Wobble'
-
 import useSound from 'use-sound'
+
 import oofSfx from '../assets/audio/mc_oof.mp3'
 
 const Header = () => {

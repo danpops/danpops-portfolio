@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Button } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom'
+import { Container, Button } from 'react-bootstrap'
 import { FaGithub } from 'react-icons/fa'
 
 const GithubLink = () => {

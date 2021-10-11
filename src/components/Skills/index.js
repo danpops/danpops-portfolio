@@ -1,9 +1,10 @@
 import React from 'react'
-import Skill from './Skill'
 import Zoom from 'react-reveal/Zoom'
-
-import skills from '../../data/skills'
 import { Container, Row } from 'react-bootstrap'
+
+import Skill from './Skill'
+
+import skills from '../../assets/data/skills'
 
 const Skills = () => {
   return (

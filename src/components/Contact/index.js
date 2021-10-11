@@ -1,9 +1,9 @@
 import React from 'react'
 import Bounce from 'react-reveal/Bounce'
 import { Row, Container, Col } from 'react-bootstrap'
-import ContactType from './ContactType'
-
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa'
+
+import ContactType from './ContactType'
 
 const Contact = () => {
   return (

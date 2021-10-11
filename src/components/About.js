@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Zoom from 'react-reveal/Zoom'
+
 import resume from '../assets/Popovic_Resume.pdf'
 
 const About = () => {

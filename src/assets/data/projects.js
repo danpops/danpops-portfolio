@@ -1,9 +1,9 @@
-import burgerJpg from '../assets/img/burger.jpg'
-import discogsJpg from '../assets/img/discogsdecisive.jpg'
-import freshouseJpg from '../assets/img/freshouse.jpg'
-import smsJpg from '../assets/img/smsspam.jpg'
-import tictacJpg from '../assets/img/tictactoe.jpg'
-import weatherJpg from '../assets/img/weather.jpg'
+import burgerJpg from '../img/burger.jpg'
+import discogsJpg from '../img/discogsdecisive.jpg'
+import freshouseJpg from '../img/freshouse.jpg'
+import smsJpg from '../img/smsspam.jpg'
+import tictacJpg from '../img/tictactoe.jpg'
+import weatherJpg from '../img/weather.jpg'
 
 const projects = [
   {

@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
-import Script from 'react-load-script'
 import { Link } from 'react-scroll'
+import Script from 'react-load-script'
+
 import links from '../data/navLinks.js'
 
 export default class Navigation extends Component {
