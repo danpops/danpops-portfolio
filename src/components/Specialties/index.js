@@ -12,7 +12,7 @@ const Specialties = () => {
   const changePane = (k) => setKey(k);
 
   return (
-    <Container className="page-section" id="services">
+    <Container className="page-section" id="specialties">
       <Zoom bottom>
         <h2 className="text-center mt-0">what are my specialties?</h2>
       </Zoom>

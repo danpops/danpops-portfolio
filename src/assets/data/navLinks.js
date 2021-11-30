@@ -5,14 +5,14 @@ const navLinks = [
     label: "about"
   },
   {
-    to: "services",
-    href: "#services",
-    label: "skills"
+    to: "specialties",
+    href: "#specialties",
+    label: "specialties"
   },
   {
-    to: "portfolio",
-    href: "#portfolio",
-    label: "projects"
+    to: "github",
+    href: "#github",
+    label: "github"
   },
   {
     to: "contact",

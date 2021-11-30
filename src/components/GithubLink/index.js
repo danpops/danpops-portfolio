@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 
 const GithubLink = () => {
   return (
-    <section className="page-section bg-dark text-white">
+    <section className="page-section bg-dark text-white" id="github">
       <Container className="text-center">
         <FaGithub size={90} className="text-white mb-4" />
         <Zoom bottom>
