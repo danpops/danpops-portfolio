@@ -1,20 +1,9 @@
-import Navigation from './Navigation';
-import Header from './Header';
-import About from './About';
-import Skills from './Skills';
-import Portfolio from './Portfolio';
-import GithubLink from './GithubLink';
-import Contact from './Contact/index';
-import Footer from './Footer';
+import About from "./About";
+import Contact from "./Contact/index";
+import Footer from "./Footer";
+import GithubLink from "./GithubLink";
+import Header from "./Header";
+import Navigation from "./Navigation";
+import Specialties from "./Specialties";
 
-export { 
-  Navigation, 
-  Header, 
-  About, 
-  Skills, 
-  Portfolio, 
-  GithubLink, 
-  Contact, 
-  Footer 
-};
-
+export { About, Contact, Footer, GithubLink, Header, Navigation, Specialties };
