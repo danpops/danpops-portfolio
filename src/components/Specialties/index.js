@@ -34,7 +34,7 @@ const Specialties = () => {
                       eventKey={item.eventKey}
                       onClick={() => setKey(item.eventKey)}
                       style={tabStyle}
-                      className="shadow-sm m-3"
+                      className="shadow-sm m-3 px-3 font-weight-medium"
                     >
                       {item.title}
                     </Nav.Link>

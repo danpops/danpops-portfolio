@@ -78,7 +78,7 @@ const frontendItems = [
   {
     image: native,
     alt: "react-native icon",
-    name: "Native",
+    name: "React Native",
     href: "https://reactnative.dev",
   },
   {
