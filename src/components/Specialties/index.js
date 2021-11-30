@@ -27,13 +27,14 @@ const Specialties = () => {
         <Row>
           <Col md={3} lg={4}>
             <Zoom bottom>
-              <Nav variant="pills" className="flex-column align-items-center">
+              <Nav variant="pills" className="flex justify-content-center align-items-start">
                 {specialtyTabs.map((item, index) => (
                   <Nav.Item key={index}>
                     <Nav.Link
                       eventKey={item.eventKey}
                       onClick={() => setKey(item.eventKey)}
                       style={tabStyle}
+                      className="shadow-sm m-3"
                     >
                       {item.title}
                     </Nav.Link>
