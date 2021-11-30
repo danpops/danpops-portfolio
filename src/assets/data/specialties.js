@@ -14,6 +14,25 @@ import express from "../icons/express.png";
 import mongodb from "../icons/mongodb.png";
 import mysql from "../icons/mysql.png";
 
+export const specialtyTabs = [
+  {
+    title: "programming",
+    eventKey: "programming",
+  },
+  {
+    title: "front-end",
+    eventKey: "frontend",
+  },
+  {
+    title: "back-end",
+    eventKey: "backend",
+  },
+  {
+    title: "database",
+    eventKey: "database",
+  },
+];
+
 const progammingItems = [
   {
     image: javascript,
