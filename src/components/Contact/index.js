@@ -33,8 +33,8 @@ const Contact = () => {
         <ContactType
           right
           className="col-lg-4 mr-auto text-center mb-5 mb-lg-0"
-          link="mailto:me@danpops.ca"
-          label="me@danpops.ca"
+          link="mailto:dan-popovic@hotmail.com"
+          label="email"
           icon={<FaEnvelope size={55} className="mb-3 text-muted" />}
         />
       </Row>
