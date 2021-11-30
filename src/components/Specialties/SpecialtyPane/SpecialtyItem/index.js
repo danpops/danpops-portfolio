@@ -8,10 +8,10 @@ const SpecialityItem = ({ key, image, alt, name }) => {
   };
 
   return (
-    <Col key={key} xs={6} md={3} className="py-4">
+    <Col key={key} xs={6} md={3} className="p-2 mb-2">
       <Image src={image} alt={alt} style={iconStyle} />
       <br />
-      <div className="mt-3 text-secondary">{name}</div>
+      <p className="mt-3 text-secondary">{name}</p>
     </Col>
   );
 };

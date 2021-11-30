@@ -37,7 +37,7 @@ const progammingItems = [
   {
     image: javascript,
     alt: "javascript icon",
-    name: "JavaScript ES6",
+    name: "JavaScript",
   },
   {
     image: typescript,
@@ -65,7 +65,7 @@ const frontendItems = [
   {
     image: native,
     alt: "react-native icon",
-    name: "React-Native",
+    name: "Native",
   },
   {
     image: bootstrap,

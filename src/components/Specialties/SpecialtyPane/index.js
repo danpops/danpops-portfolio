@@ -8,7 +8,7 @@ const SpecialtyPane = ({ eventKey, data }) => {
   return (
     <Tab.Pane eventKey={eventKey}>
       <Pulse>
-        <Row className="justify-content-center align-center">
+        <Row className="justify-content-left">
           {data.map((item, index) => (
             <SpecialityItem
               key={index}
