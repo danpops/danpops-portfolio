@@ -20,7 +20,7 @@ const Specialties = () => {
       <Tabs
         activeKey={key}
         onSelect={changePane}
-        className="mb-3 py-2 justify-content-center "
+        className="mb-3 py-2 justify-content-around "
         variant="pills"
       >
         {specialtyTabs.map((item, index) => (
@@ -28,7 +28,7 @@ const Specialties = () => {
         ))}
       </Tabs>
       <Tab.Container activeKey={key}>
-        <Tab.Content className="m-5 text-center">
+        <Tab.Content className="mx-5 mt-5 text-center">
           {specialtyPanes.map((item, index) => (
             <SpecialtyPane
               key={index}
