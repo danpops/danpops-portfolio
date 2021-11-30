@@ -1,23 +1,24 @@
-import React from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'
-import { Link } from 'react-scroll'
-import Typewriter from 'typewriter-effect'
-import ParticlesBg from 'particles-bg'
-import Zoom from 'react-reveal/Zoom'
-import Wobble from 'react-reveal/Wobble'
-import useSound from 'use-sound'
+import React from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-scroll";
+import Typewriter from "typewriter-effect";
+import ParticlesBg from "particles-bg";
+import Zoom from "react-reveal/Zoom";
+import Wobble from "react-reveal/Wobble";
+import useSound from "use-sound";
 
-import oofSfx from '../../assets/audio/mc_oof.mp3'
+import oofSfx from "../../assets/audio/mc_oof.mp3";
+import { typewriterHeader } from "../../assets/data/headerData";
 
 const Header = () => {
   const OofHeader = () => {
-    const [play] = useSound(oofSfx)
+    const [play] = useSound(oofSfx);
     return (
       <h1 onClick={play} className="text-white">
         hello!
       </h1>
-    )
-  }
+    );
+  };
 
   return (
     <header class="masthead">
@@ -38,11 +39,7 @@ const Header = () => {
               <h5 className="typewrite text-white mb-5">
                 <Typewriter
                   options={{
-                    strings: [
-                      "agile software engineer.",
-                      'i build stuff for the web.',
-                      'nice to meet you :) !',
-                    ],
+                    strings: typewriterHeader,
                     autoStart: true,
                     loop: true,
                   }}
@@ -65,7 +62,7 @@ const Header = () => {
         </Row>
       </Container>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
