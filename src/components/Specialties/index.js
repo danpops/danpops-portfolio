@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Zoom from "react-reveal/Zoom";
 import { Container, Tab, Row, Col, Nav } from "react-bootstrap";
-import Bounce from "react-reveal/Bounce";
 
 import { specialtyTabs, specialtyPanes } from "../../assets/data/specialties";
 

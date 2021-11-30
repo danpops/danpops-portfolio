@@ -1,4 +1,4 @@
 export const typewriterHeader = [
-  "i build stuff for the web.",
+  "i help build software.",
   "nice to meet you :) !",
 ];
