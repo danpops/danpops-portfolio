@@ -4,15 +4,17 @@ import typescript from "../icons/typescript.png";
 import python from "../icons/python.png";
 
 import reactjs from "../icons/reactjs.png";
+import redux from "../icons/redux.png";
 import native from "../icons/react-native.png";
 import bootstrap from "../icons/bootstrap.png";
-import graphql from "../icons/graphql.png";
 
+import graphql from "../icons/graphql.png";
 import nodejs from "../icons/nodejs.png";
 import express from "../icons/express.png";
 
-import mongodb from "../icons/mongodb.png";
-import mysql from "../icons/mysql.png";
+import postman from "../icons/postman.png";
+import github from "../icons/github.png";
+import npm from "../icons/npm.png";
 
 export const specialtyTabs = [
   {
@@ -28,8 +30,8 @@ export const specialtyTabs = [
     eventKey: "backend",
   },
   {
-    title: "database",
-    eventKey: "database",
+    title: "tools",
+    eventKey: "tools",
   },
 ];
 
@@ -63,6 +65,11 @@ const frontendItems = [
     name: "ReactJS",
   },
   {
+    image: redux,
+    alt: "redux icon",
+    name: "Redux",
+  },
+  {
     image: native,
     alt: "react-native icon",
     name: "Native",
@@ -92,21 +99,21 @@ const backendItems = [
   },
 ];
 
-const databaseItems = [
+const otherItems = [
   {
-    image: graphql,
-    alt: "graphql icon",
-    name: "GraphQL",
+    image: github,
+    alt: "github icon",
+    name: "GitHub",
   },
   {
-    image: mongodb,
-    alt: "mongodb icon",
-    name: "MongoDB",
+    image: npm,
+    alt: "npm icon",
+    name: "NPM",
   },
   {
-    image: mysql,
-    alt: "mysql icon",
-    name: "MySQL",
+    image: postman,
+    alt: "postman icon",
+    name: "Postman",
   },
 ];
 
@@ -124,7 +131,7 @@ export const specialtyPanes = [
     eventKey: "backend",
   },
   {
-    data: databaseItems,
-    eventKey: "database",
+    data: otherItems,
+    eventKey: "tools",
   },
 ];
