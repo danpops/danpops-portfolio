@@ -1,75 +1,50 @@
-import React, { Component } from 'react'
-import { Container } from 'react-bootstrap'
-import { Link } from 'react-scroll'
-import Script from 'react-load-script'
+import React, { useEffect, useState } from "react";
+import { Container, Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 
-import navData from '../../assets/data/navData'
+import navData from "../../assets/data/navData";
 
-export default class Navigation extends Component {
-  render() {
-    return (
-      <div>
-        <Script
-          url="../js/scripts.js"
-          onCreate={this.handleScriptCreate.bind(this)}
-          onError={this.handleScriptError.bind(this)}
-          onLoad={this.handleScriptLoad.bind(this)}
-        />
+const Navigation = () => {
+  const [scroll, setScroll] = useState(false);
+  const navClass = scroll ? "navbar-scrolled" : "";
 
-        <nav
-          className="navbar navbar-expand-lg navbar-light fixed-top py-3"
-          id="mainNav"
-        >
-          <Container>
-            <Link to="page-top" smooth={true} duration={500}>
-              <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                {'<danpops />'}
-              </a>
-            </Link>
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 100);
+    });
+  }, []);
 
-            <button
-              className="navbar-toggler navbar-toggler-right"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarResponsive"
-              aria-controls="navbarResponsive"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
+  return (
+    <Navbar
+      color="light"
+      expand="lg"
+      className={`fixed-top py-3 ${navClass}`}
+      id="mainNav"
+    >
+      <Container>
+        <Link to="page-top" smooth={true} duration={500}>
+          <Navbar.Brand className="js-scroll-trigger" href="#page-top">
+            {"<danpops />"}
+          </Navbar.Brand>
+        </Link>
 
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav ml-auto my-2 my-lg-0">
-                {navData.map((link, index) => (
-                  <Link key={index} to={link.to} smooth={true} duration={500}>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link js-scroll-trigger"
-                        href={link.href}
-                      >
-                        {link.label}
-                      </a>
-                    </li>
-                  </Link>
-                ))}
-              </ul>
-            </div>
-          </Container>
-        </nav>
-      </div>
-    )
-  }
+        <Navbar.Toggle aria-controls="navbarResponsive" />
+        <Navbar.Collapse id="navbarResponsive">
+          <Nav className="ml-auto my-2 my-lg-0">
+            {navData.map((link, index) => (
+              <Link key={index} to={link.to} smooth={true} duration={500}>
+                <Nav.Item>
+                  <Nav.Link href={link.href} className="pr-2 js-scroll-trigger">
+                    {link.label}
+                  </Nav.Link>
+                </Nav.Item>
+              </Link>
+            ))}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
 
-  handleScriptCreate() {
-    this.setState({ scriptLoaded: false })
-  }
-
-  handleScriptError() {
-    this.setState({ scriptError: true })
-  }
-
-  handleScriptLoad() {
-    this.setState({ scriptLoaded: true })
-  }
-}
+export default Navigation;
