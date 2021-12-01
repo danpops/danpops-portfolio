@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <>
       <Navigation />
       <Header />
       <About />
@@ -21,7 +21,7 @@ function App() {
       <GithubLink />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 

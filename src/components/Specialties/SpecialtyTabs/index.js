@@ -13,7 +13,7 @@ const SpecialtyTabs = ({ setKey }) => {
 
   return (
     <Col md={3} lg={4}>
-      <Zoom bottom>
+      <Zoom>
         <Nav
           variant="pills"
           className="flex justify-content-center align-items-start"

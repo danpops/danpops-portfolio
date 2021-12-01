@@ -1,24 +1,19 @@
-import React from 'react'
-import Roll from 'react-reveal/Roll'
+import React from "react";
+import Zoom from "react-reveal/Zoom";
 
-const ContactType = ({
-  left = false,
-  right = false,
-  icon,
-  link,
-  label,
-  className,
-}) => {
+const ContactType = ({ icon, link, label, className }) => {
   return (
-    <Roll left={left} right={right}>
+    <Zoom>
       <div className={className}>
         {icon}
         <div>
-          <a href={link}>{label}</a>
+          <a target="_blank" rel="noopener noreferrer" href={link}>
+            {label}
+          </a>
         </div>
       </div>
-    </Roll>
-  )
-}
+    </Zoom>
+  );
+};
 
-export default ContactType
+export default ContactType;

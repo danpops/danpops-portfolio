@@ -8,7 +8,7 @@ const GithubLink = () => {
     <section className="page-section bg-dark text-white" id="github">
       <Container className="text-center">
         <FaGithub size={90} className="text-white mb-4" />
-        <Zoom bottom>
+        <Zoom>
           <h2 className="mb-4">check out my work on github!</h2>
           <Button
             size="xl"

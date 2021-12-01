@@ -1,9 +1,9 @@
-import React from 'react'
-import Bounce from 'react-reveal/Bounce'
-import { Row, Container, Col } from 'react-bootstrap'
-import { FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import React from "react";
+import Bounce from "react-reveal/Bounce";
+import { Row, Container, Col } from "react-bootstrap";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-import ContactType from './ContactType'
+import ContactType from "./ContactType";
 
 const Contact = () => {
   return (
@@ -23,7 +23,6 @@ const Contact = () => {
       </Row>
       <Row>
         <ContactType
-          left
           className="col-lg-4 ml-auto text-center mb-5 mb-lg-0"
           link="https://www.linkedin.com/in/danpops"
           label="linkedin/danpops"
@@ -31,7 +30,6 @@ const Contact = () => {
         />
 
         <ContactType
-          right
           className="col-lg-4 mr-auto text-center mb-5 mb-lg-0"
           link="mailto:dan-popovic@hotmail.com"
           label="email"
@@ -39,7 +37,7 @@ const Contact = () => {
         />
       </Row>
     </Container>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
