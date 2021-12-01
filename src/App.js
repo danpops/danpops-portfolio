@@ -5,7 +5,7 @@ import {
   About,
   Contact,
   Footer,
-  GithubLink,
+  GitHubLink,
   Header,
   Navigation,
   Specialties,
@@ -18,7 +18,7 @@ function App() {
       <Header />
       <About />
       <Specialties />
-      <GithubLink />
+      <GitHubLink />
       <Contact />
       <Footer />
     </>

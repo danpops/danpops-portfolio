@@ -3,7 +3,7 @@ import { Button, Container } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { FaGithub } from "react-icons/fa";
 
-const GithubLink = () => {
+const GitHubLink = () => {
   return (
     <section className="page-section bg-dark text-white" id="github">
       <Container className="text-center">
@@ -25,4 +25,4 @@ const GithubLink = () => {
   );
 };
 
-export default GithubLink;
+export default GitHubLink;

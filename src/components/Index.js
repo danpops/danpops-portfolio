@@ -1,9 +1,9 @@
 import About from "./About";
 import Contact from "./Contact/index";
 import Footer from "./Footer";
-import GithubLink from "./GithubLink";
+import GitHubLink from "./GitHubLink";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Specialties from "./Specialties";
 
-export { About, Contact, Footer, GithubLink, Header, Navigation, Specialties };
+export { About, Contact, Footer, GitHubLink, Header, Navigation, Specialties };
