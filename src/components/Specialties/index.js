@@ -1,18 +1,13 @@
 import React, { useState } from "react";
 import Zoom from "react-reveal/Zoom";
-import { Container, Tab, Row, Col, Nav } from "react-bootstrap";
+import { Container, Tab, Row } from "react-bootstrap";
 
-import { specialtyTabs, specialtyPanes } from "../../assets/data/specialties";
-
-import SpecialtyPane from "./SpecialtyPane";
+import SpecialtyTabs from "./SpecialtyTabs";
+import SpecialtyContent from "./SpecialtyContent";
 
 const Specialties = () => {
   const [key, setKey] = useState("programming");
-  const tabStyle = {
-    marginLeft: "auto",
-    marginRight: "auto",
-    fontSize: "20px",
-  };
+  const marginStyle = { marginLeft: "auto", marginRight: "auto" };
 
   return (
     <Container className="page-section" id="specialties">
@@ -20,40 +15,10 @@ const Specialties = () => {
         <h2 className="text-center mt-0">what are my specialties?</h2>
       </Zoom>
       <hr className="divider my-4" />
-      <Tab.Container
-        activeKey={key}
-        style={{ marginLeft: "auto", marginRight: "auto" }}
-      >
+      <Tab.Container activeKey={key} style={marginStyle}>
         <Row>
-          <Col md={3} lg={4}>
-            <Zoom bottom>
-              <Nav variant="pills" className="flex justify-content-center align-items-start">
-                {specialtyTabs.map((item, index) => (
-                  <Nav.Item key={index}>
-                    <Nav.Link
-                      eventKey={item.eventKey}
-                      onClick={() => setKey(item.eventKey)}
-                      style={tabStyle}
-                      className="shadow-sm m-3 px-3 font-weight-medium"
-                    >
-                      {item.title}
-                    </Nav.Link>
-                  </Nav.Item>
-                ))}
-              </Nav>
-            </Zoom>
-          </Col>
-          <Col md={9} lg={8}>
-            <Tab.Content className="mx-5 mt-5 text-center">
-              {specialtyPanes.map((item, index) => (
-                <SpecialtyPane
-                  key={index}
-                  data={item.data}
-                  eventKey={item.eventKey}
-                />
-              ))}
-            </Tab.Content>
-          </Col>
+          <SpecialtyTabs setKey={setKey} />
+          <SpecialtyContent />
         </Row>
       </Tab.Container>
     </Container>

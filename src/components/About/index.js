@@ -1,8 +1,8 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Zoom from 'react-reveal/Zoom'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Zoom from "react-reveal/Zoom";
 
-import resume from '../../assets/Popovic_Resume.pdf'
+import resume from "../../assets/Popovic_Resume.pdf";
 
 const About = () => {
   return (
@@ -14,11 +14,13 @@ const About = () => {
               <h2 className="text-white mt-0">who am i?</h2>
               <hr className="divider light my-4" />
               <p className="text-white-50 mb-4 font-weight-bold">
-                i'm an agile software engineer at {" "}
+                i'm an agile software engineer at{" "}
                 <a
                   href="http://www.tribalscale.com"
-                  style={{ textDecoration: 'none' }}
+                  style={{ textDecoration: "none" }}
                   className="text-white-50 font-weight-bold"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   TribalScale
                 </a>
@@ -39,7 +41,7 @@ const About = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

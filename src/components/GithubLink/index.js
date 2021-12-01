@@ -1,7 +1,7 @@
-import React from 'react'
-import Zoom from 'react-reveal/Zoom'
-import { Container, Button } from 'react-bootstrap'
-import { FaGithub } from 'react-icons/fa'
+import React from "react";
+import Zoom from "react-reveal/Zoom";
+import { Container, Button } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
 
 const GithubLink = () => {
   return (
@@ -12,7 +12,9 @@ const GithubLink = () => {
           <h2 className="mb-4">check out my work on github!</h2>
           <Button
             size="xl"
-            className="btn-light text-lowercase"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-light text-lowercase shadow-sm"
             href="https://github.com/danpops"
           >
             github/danpops
@@ -20,7 +22,7 @@ const GithubLink = () => {
         </Zoom>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default GithubLink
+export default GithubLink;
