@@ -98,12 +98,6 @@ const backendItems = [
 
 const otherItems = [
   {
-    image: github,
-    alt: "github icon",
-    name: "GitHub",
-    href: "https://github.com",
-  },
-  {
     image: jest,
     alt: "jest icon",
     name: "JestJS",
@@ -114,6 +108,12 @@ const otherItems = [
     alt: "storybook icon",
     name: "StorybookJS",
     href: "https://storybook.js.org/",
+  },
+  {
+    image: github,
+    alt: "github icon",
+    name: "GitHub",
+    href: "https://github.com",
   },
   {
     image: postman,
