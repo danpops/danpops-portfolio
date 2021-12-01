@@ -6,7 +6,7 @@ import java from "../icons/java.png";
 import javascript from "../icons/javascript.png";
 import jest from "../icons/jest.png";
 import mongo from "../icons/mongo.png";
-import native from "../icons/react-native.png";
+import native from "../icons/reactnative.png";
 import nodejs from "../icons/nodejs.png";
 import postman from "../icons/postman.png";
 import python from "../icons/python.png";
