@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Row } from "react-bootstrap";
+import { Row, Tab } from "react-bootstrap";
 import Pulse from "react-reveal/Pulse";
 
 import SpecialityItem from "./SpecialtyItem";

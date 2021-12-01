@@ -1,10 +1,8 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 import { Col, Nav } from "react-bootstrap";
+import Zoom from "react-reveal/Zoom";
 
-import { specialtyTabs } from "../../../assets/data/specialties";
-
-const SpecialtyTabs = ({ setKey }) => {
+const SpecialtyTabs = ({ data, setKey }) => {
   const tabStyle = {
     marginLeft: "auto",
     marginRight: "auto",
@@ -18,7 +16,7 @@ const SpecialtyTabs = ({ setKey }) => {
           variant="pills"
           className="flex justify-content-center align-items-start"
         >
-          {specialtyTabs.map((item, index) => (
+          {data.map((item, index) => (
             <Nav.Item key={index}>
               <Nav.Link
                 eventKey={item.eventKey}

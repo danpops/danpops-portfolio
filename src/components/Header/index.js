@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
-import Typewriter from "typewriter-effect";
 import ParticlesBg from "particles-bg";
-import Zoom from "react-reveal/Zoom";
-import Wobble from "react-reveal/Wobble";
+import Typewriter from "typewriter-effect";
 import useSound from "use-sound";
+import Wobble from "react-reveal/Wobble";
+import Zoom from "react-reveal/Zoom";
 
 import oofSfx from "../../assets/audio/mc_oof.mp3";
 import { typewriterHeader } from "../../assets/data/headerData";

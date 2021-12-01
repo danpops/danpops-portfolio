@@ -1,15 +1,13 @@
 import React from "react";
-import { Tab, Col } from "react-bootstrap";
-
-import { specialtyPanes } from "../../../assets/data/specialties";
+import { Col, Tab } from "react-bootstrap";
 
 import SpecialtyPane from "./SpecialtyPane";
 
-const SpecialtyContent = () => {
+const SpecialtyContent = ({ data }) => {
   return (
     <Col md={9} lg={8}>
       <Tab.Content className="mx-5 mt-5 text-center">
-        {specialtyPanes.map((item, index) => (
+        {data.map((item, index) => (
           <SpecialtyPane
             key={index}
             data={item.data}

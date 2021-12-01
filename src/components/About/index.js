@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
+
 import me from "../../assets/images/me.jpeg";
 
 const About = () => {

@@ -1,39 +1,19 @@
-import javascript from "../icons/javascript.png";
+import bootstrap from "../icons/bootstrap.png";
+import express from "../icons/express.png";
+import github from "../icons/github.png";
+import graphql from "../icons/graphql.png";
 import java from "../icons/java.png";
-import typescript from "../icons/typescript.png";
+import javascript from "../icons/javascript.png";
+import jest from "../icons/jest.png";
+import mongo from "../icons/mongo.png";
+import native from "../icons/react-native.png";
+import nodejs from "../icons/nodejs.png";
+import postman from "../icons/postman.png";
 import python from "../icons/python.png";
-
 import reactjs from "../icons/reactjs.png";
 import redux from "../icons/redux.png";
-import native from "../icons/react-native.png";
-import bootstrap from "../icons/bootstrap.png";
-
-import graphql from "../icons/graphql.png";
-import nodejs from "../icons/nodejs.png";
-import express from "../icons/express.png";
-
-import postman from "../icons/postman.png";
-import github from "../icons/github.png";
-import npm from "../icons/npm.png";
-
-export const specialtyTabs = [
-  {
-    title: "programming",
-    eventKey: "programming",
-  },
-  {
-    title: "front-end",
-    eventKey: "frontend",
-  },
-  {
-    title: "back-end",
-    eventKey: "backend",
-  },
-  {
-    title: "tools",
-    eventKey: "tools",
-  },
-];
+import storybook from "../icons/storybook.png";
+import typescript from "../icons/typescript.png";
 
 const progammingItems = [
   {
@@ -97,16 +77,22 @@ const backendItems = [
     href: "https://nodejs.org/en/",
   },
   {
+    image: graphql,
+    alt: "graphql icon",
+    name: "GraphQL",
+    href: "https://graphql.org",
+  },
+  {
     image: express,
     alt: "expressjs icon",
     name: "ExpressJS",
     href: "https://expressjs.com",
   },
   {
-    image: graphql,
-    alt: "graphql icon",
-    name: "GraphQL",
-    href: "https://graphql.org",
+    image: mongo,
+    alt: "mongodb icon",
+    name: "MongoDB",
+    href: "https://www.mongodb.com/",
   },
 ];
 
@@ -118,10 +104,16 @@ const otherItems = [
     href: "https://github.com",
   },
   {
-    image: npm,
-    alt: "npm icon",
-    name: "NPM",
-    href: "https://www.npmjs.com",
+    image: jest,
+    alt: "jest icon",
+    name: "JestJS",
+    href: "https://jestjs.io/",
+  },
+  {
+    image: storybook,
+    alt: "storybook icon",
+    name: "StorybookJS",
+    href: "https://storybook.js.org/",
   },
   {
     image: postman,
@@ -131,20 +123,24 @@ const otherItems = [
   },
 ];
 
-export const specialtyPanes = [
+export const specialtyData = [
   {
+    title: "programming",
     data: progammingItems,
     eventKey: "programming",
   },
   {
+    title: "frontend",
     data: frontendItems,
     eventKey: "frontend",
   },
   {
+    title: "backend",
     data: backendItems,
     eventKey: "backend",
   },
   {
+    title: "other",
     data: otherItems,
     eventKey: "tools",
   },

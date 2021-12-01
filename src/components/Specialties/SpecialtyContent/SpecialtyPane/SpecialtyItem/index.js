@@ -9,7 +9,7 @@ const SpecialityItem = ({ key, image, alt, name, href }) => {
   };
 
   return (
-    <Col key={key} xs={6} md={3} className="p-2 mb-2">
+    <Col key={key} xs={6} md={6} lg={3} className="p-2 mb-2">
       <a
         target="_blank"
         rel="noopener noreferrer"

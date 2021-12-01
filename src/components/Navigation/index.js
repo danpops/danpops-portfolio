@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 import Script from 'react-load-script'
 
-import links from '../../assets/data/navLinks'
+import navData from '../../assets/data/navData'
 
 export default class Navigation extends Component {
   render() {
@@ -41,7 +41,7 @@ export default class Navigation extends Component {
 
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto my-2 my-lg-0">
-                {links.map((link, index) => (
+                {navData.map((link, index) => (
                   <Link key={index} to={link.to} smooth={true} duration={500}>
                     <li className="nav-item">
                       <a
