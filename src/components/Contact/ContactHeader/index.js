@@ -1,20 +1,22 @@
 import React from "react";
-import Bounce from "react-reveal/Bounce";
+import Zoom from "react-reveal/Zoom";
 import { Col, Row } from "react-bootstrap";
 
 const ContactHeader = () => {
   return (
     <Row className="justify-content-center">
       <Col lg={8} className="text-center">
-        <Bounce bottom>
+        <Zoom>
           <h2 className="mt-0">let's get in touch!</h2>
-          <hr className="divider my-4" />
+        </Zoom>
+        <hr className="divider my-4" />
+        <Zoom>
           <p className="text-muted mb-5">
             although i'm not currently looking for any new opportunities, i'm
             open to answering questions or providing advice. feel free to
             contact me!
           </p>
-        </Bounce>
+        </Zoom>
       </Col>
     </Row>
   );

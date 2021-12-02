@@ -11,7 +11,7 @@ const About = () => {
       <Container>
         <Row className="justify-content-center">
           <Col lg={8} className="text-center">
-            <Zoom bottom>
+            <Zoom>
               <Image
                 className="shadow mb-4"
                 src={me}
@@ -19,7 +19,9 @@ const About = () => {
                 roundedCircle
               />
               <h2 className="text-white mt-0">who am i?</h2>
-              <hr className="divider light my-4" />
+            </Zoom>
+            <hr className="divider light my-4" />
+            <Zoom>
               <p className="text-white-50 mb-4 font-weight-bold">
                 i'm an agile software engineer at{" "}
                 <a
