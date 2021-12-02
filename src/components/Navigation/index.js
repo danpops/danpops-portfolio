@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
+
+import { MotionDiv } from "../Motion";
 
 import navData from "../../assets/data/navData";
 import useNavigation from "../../hooks/useNavigation";
@@ -20,11 +21,11 @@ const Navigation = () => {
     >
       <Container>
         <Link to="page-top" smooth={true} duration={500}>
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <MotionDiv>
             <Navbar.Brand className="js-scroll-trigger ml-2" href="#page-top">
               {"danpops_"}
             </Navbar.Brand>
-          </motion.div>
+          </MotionDiv>
         </Link>
 
         <Navbar.Toggle
@@ -38,10 +39,7 @@ const Navigation = () => {
           <Nav className="ml-auto my-2 my-lg-0">
             {navData.map((link, index) => (
               <Link key={index} to={link.to} smooth={true} duration={500}>
-                <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                >
+                <MotionDiv>
                   <Nav.Item>
                     <Nav.Link
                       href={link.href}
@@ -51,7 +49,7 @@ const Navigation = () => {
                       {link.label}
                     </Nav.Link>
                   </Nav.Item>
-                </motion.div>
+                </MotionDiv>
               </Link>
             ))}
           </Nav>

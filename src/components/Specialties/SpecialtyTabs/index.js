@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Nav } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-import { motion } from "framer-motion";
+
+import { MotionDiv } from "../../Motion";
 
 import { tabStyle } from "../styles";
 
@@ -14,7 +15,7 @@ const SpecialtyTabs = ({ data, setKey }) => {
           className="flex justify-content-center align-items-start"
         >
           {data.map((item, index) => (
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+            <MotionDiv>
               <Nav.Item key={index}>
                 <Nav.Link
                   eventKey={item.eventKey}
@@ -25,7 +26,7 @@ const SpecialtyTabs = ({ data, setKey }) => {
                   {item.title}
                 </Nav.Link>
               </Nav.Item>
-            </motion.div>
+            </MotionDiv>
           ))}
         </Nav>
       </Zoom>

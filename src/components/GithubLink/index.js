@@ -1,8 +1,9 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
-import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
+
+import { MotionDiv } from "../Motion";
 
 const GitHubLink = () => {
   return (
@@ -11,7 +12,7 @@ const GitHubLink = () => {
         <FaGithub size={90} className="text-white mb-4" />
         <Zoom>
           <h2 className="mb-4">check out my work on github!</h2>
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <MotionDiv>
             <Button
               size="xl"
               target="_blank"
@@ -21,7 +22,7 @@ const GitHubLink = () => {
             >
               github/danpops
             </Button>
-          </motion.div>
+          </MotionDiv>
         </Zoom>
       </Container>
     </section>
