@@ -7,8 +7,8 @@ import { tabStyle } from "../styles";
 
 const SpecialtyTabs = ({ data, setKey }) => {
   return (
-    <Zoom>
-      <Col md={3} lg={4}>
+    <Col md={3} lg={4}>
+      <Zoom>
         <Nav
           variant="pills"
           className="flex justify-content-center align-items-start"
@@ -28,8 +28,8 @@ const SpecialtyTabs = ({ data, setKey }) => {
             </motion.div>
           ))}
         </Nav>
-      </Col>
-    </Zoom>
+      </Zoom>
+    </Col>
   );
 };
 

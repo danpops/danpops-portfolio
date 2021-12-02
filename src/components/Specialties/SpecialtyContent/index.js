@@ -6,8 +6,8 @@ import SpecialtyPane from "./SpecialtyPane";
 
 const SpecialtyContent = ({ data }) => {
   return (
-    <Zoom>
-      <Col md={9} lg={8}>
+    <Col md={9} lg={8}>
+      <Zoom>
         <Tab.Content className="mx-5 mt-5 text-center">
           {data.map((item, index) => (
             <SpecialtyPane
@@ -17,8 +17,8 @@ const SpecialtyContent = ({ data }) => {
             />
           ))}
         </Tab.Content>
-      </Col>
-    </Zoom>
+      </Zoom>
+    </Col>
   );
 };
 
