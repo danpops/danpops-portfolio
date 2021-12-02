@@ -2,16 +2,9 @@ import React from "react";
 import { Col, Nav } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 
-const SpecialtyTabs = ({ data, setKey }) => {
-  const tabStyle = {
-    borderRadius: "30px",
-    fontSize: "16px",
-    marginLeft: "auto",
-    marginRight: "auto",
-    textAlign: "center",
-    width: "125px",
-  };
+import { tabStyle } from "../styles";
 
+const SpecialtyTabs = ({ data, setKey }) => {
   return (
     <Col md={3} lg={4}>
       <Zoom>

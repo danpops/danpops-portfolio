@@ -2,10 +2,10 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 
+import { imgStyle } from "./styles";
 import me from "../../assets/images/me.jpeg";
 
 const About = () => {
-  const imgSize = { maxWidth: "175px", maxHeight: "175px" };
   return (
     <section className="page-section bg-primary" id="about">
       <Container>
@@ -13,9 +13,9 @@ const About = () => {
           <Col lg={8} className="text-center">
             <Zoom>
               <Image
-                className="shadow-sm mb-4"
+                className="shadow mb-4"
                 src={me}
-                style={imgSize}
+                style={imgStyle}
                 roundedCircle
               />
               <h2 className="text-white mt-0">who am i?</h2>

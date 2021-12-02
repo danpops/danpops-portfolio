@@ -5,12 +5,11 @@ import SpecialtyContent from "./SpecialtyContent";
 import SpecialtyHeader from "./SpecialtyHeader";
 import SpecialtyTabs from "./SpecialtyTabs";
 
+import { marginStyle } from "./styles";
 import { specialtyData } from "../../assets/data/speaciltyData";
 
 const Specialties = () => {
   const [key, setKey] = useState("programming");
-  const marginStyle = { marginLeft: "auto", marginRight: "auto" };
-
   return (
     <Container className="page-section" id="specialties">
       <SpecialtyHeader />
