@@ -11,7 +11,7 @@ const About = () => {
       <Container>
         <Row className="justify-content-center">
           <Col lg={8} className="text-center">
-            <Zoom>
+            <Zoom bottom>
               <Image
                 className="shadow mb-4"
                 src={me}

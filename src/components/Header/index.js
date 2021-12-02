@@ -1,8 +1,9 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-scroll";
 import ParticlesBg from "particles-bg";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 import useSound from "use-sound";
 import Zoom from "react-reveal/Zoom";
 
@@ -38,14 +39,14 @@ const Header = () => {
               </h5>
 
               <Link to="about" smooth={true} duration={1000}>
-                <Button
-                  color="primary"
-                  size="xl"
-                  className="js-scroll-trigger text-lowercase"
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  className="btn-xl btn-primary js-scroll-trigger text-lowercase"
                   href="#about"
                 >
                   who am i?
-                </Button>
+                </motion.button>
               </Link>
             </Zoom>
           </Col>
