@@ -4,38 +4,29 @@ import { Link } from "react-scroll";
 import ParticlesBg from "particles-bg";
 import Typewriter from "typewriter-effect";
 import useSound from "use-sound";
-import Wobble from "react-reveal/Wobble";
 import Zoom from "react-reveal/Zoom";
 
 import oofSfx from "../../assets/audio/mc_oof.mp3";
 import { typewriterHeader } from "../../assets/data/headerData";
 
 const Header = () => {
-  const OofHeader = () => {
-    const [play] = useSound(oofSfx);
-    return (
-      <h1 onClick={play} className="text-dark">
-        hello!
-      </h1>
-    );
-  };
-
+  const [play] = useSound(oofSfx);
   return (
-    <header class="masthead">
+    <header className="masthead">
       <ParticlesBg color="#007BFF" num={45} type="cobweb" bg={true} />
       <Container className="h-100">
         <Row className="h-100 align-items-center justify-content-center text-center">
           <Col lg={10} className="align-self-end">
-            <Zoom right>
-              <OofHeader />
-            </Zoom>
-            <Zoom left>
+            <Zoom>
+              <h1 onClick={play} className="text-dark">
+                hello!
+              </h1>
               <h2 className="text-dark">i'm dan popovic</h2>
             </Zoom>
             <hr className="divider my-4" />
           </Col>
           <Col lg={8} className="align-self-baseline">
-            <Wobble>
+            <Zoom>
               <h5 className="typewrite text-dark mb-5">
                 <Typewriter
                   options={{
@@ -45,8 +36,7 @@ const Header = () => {
                   }}
                 />
               </h5>
-            </Wobble>
-            <Zoom>
+
               <Link to="about" smooth={true} duration={1000}>
                 <Button
                   color="primary"

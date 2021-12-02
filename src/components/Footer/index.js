@@ -1,26 +1,20 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import useSound from 'use-sound'
+import React from "react";
+import { Container } from "react-bootstrap";
+import useSound from "use-sound";
 
-import talonsSfx from '../../assets/audio/largetalons.mp3'
+import talonsSfx from "../../assets/audio/largetalons.mp3";
 
 const Footer = () => {
-  const TalonsEasterEgg = () => {
-    const [play] = useSound(talonsSfx)
-    return (
-      <div onClick={play} className="small text-center text-muted">
-        © 2021 - danpops.ca
-      </div>
-    )
-  }
-
+  const [play] = useSound(talonsSfx);
   return (
     <footer className="bg-light py-5">
       <Container>
-        <TalonsEasterEgg />
+        <div onClick={play} className="small text-center text-muted">
+          © 2021 - danpops.ca
+        </div>
       </Container>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
