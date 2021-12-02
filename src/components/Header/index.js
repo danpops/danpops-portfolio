@@ -14,7 +14,7 @@ const Header = () => {
   const OofHeader = () => {
     const [play] = useSound(oofSfx);
     return (
-      <h1 onClick={play} className="text-white">
+      <h1 onClick={play} className="text-dark">
         hello!
       </h1>
     );
@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header class="masthead">
-      <ParticlesBg num={150} type="lines" bg={true} />
+      <ParticlesBg color="#007BFF" num={45} type="cobweb" bg={true} />
       <Container className="h-100">
         <Row className="h-100 align-items-center justify-content-center text-center">
           <Col lg={10} className="align-self-end">
@@ -30,13 +30,13 @@ const Header = () => {
               <OofHeader />
             </Zoom>
             <Zoom left>
-              <h2 className="text-white">i'm daniel popovic</h2>
+              <h2 className="text-dark">i'm dan popovic</h2>
             </Zoom>
             <hr className="divider my-4" />
           </Col>
           <Col lg={8} className="align-self-baseline">
             <Wobble>
-              <h5 className="typewrite text-white mb-5">
+              <h5 className="typewrite text-dark mb-5">
                 <Typewriter
                   options={{
                     strings: typewriterHeader,

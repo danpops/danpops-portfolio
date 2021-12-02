@@ -4,9 +4,12 @@ import Zoom from "react-reveal/Zoom";
 
 const SpecialtyTabs = ({ data, setKey }) => {
   const tabStyle = {
+    borderRadius: "30px",
+    fontSize: "16px",
     marginLeft: "auto",
     marginRight: "auto",
-    fontSize: "20px",
+    textAlign: "center",
+    width: "125px",
   };
 
   return (
@@ -22,7 +25,7 @@ const SpecialtyTabs = ({ data, setKey }) => {
                 eventKey={item.eventKey}
                 onClick={() => setKey(item.eventKey)}
                 style={tabStyle}
-                className="shadow-sm m-3 px-3 font-weight-medium"
+                className="shadow-sm m-3 py-3 font-weight-medium"
               >
                 {item.title}
               </Nav.Link>

@@ -125,7 +125,7 @@ const otherItems = [
 
 export const specialtyData = [
   {
-    title: "programming",
+    title: "languages",
     data: progammingItems,
     eventKey: "programming",
   },
