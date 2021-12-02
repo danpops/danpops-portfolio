@@ -10,7 +10,12 @@ const ContactType = ({ icon, link, label, className }) => {
           <div>
             {icon}
             <br />
-            <a target="_blank" rel="noopener noreferrer" href={link}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href={link}
+            >
               {label}
             </a>
           </div>

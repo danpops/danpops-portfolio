@@ -38,15 +38,20 @@ const Navigation = () => {
           <Nav className="ml-auto my-2 my-lg-0">
             {navData.map((link, index) => (
               <Link key={index} to={link.to} smooth={true} duration={500}>
-                <Nav.Item>
-                  <Nav.Link
-                    href={link.href}
-                    onClick={closeNav}
-                    className="ml-2 pr-2 js-scroll-trigger"
-                  >
-                    {link.label}
-                  </Nav.Link>
-                </Nav.Item>
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <Nav.Item>
+                    <Nav.Link
+                      href={link.href}
+                      onClick={closeNav}
+                      className="ml-2 pr-2 js-scroll-trigger"
+                    >
+                      {link.label}
+                    </Nav.Link>
+                  </Nav.Item>
+                </motion.div>
               </Link>
             ))}
           </Nav>

@@ -13,19 +13,7 @@ const SpecialityItem = ({ key, image, alt, name, href }) => {
         style={linkStyle}
       >
         <motion.img
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          animate={{
-            scale: [1, 1, 1.2, 1.2, 1, 1],
-            rotate: [0, 0, 120, -120, 0, 0],
-          }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.4, 0.6, 0.8, 1],
-            repeat: 5,
-            repeatDelay: 1,
-          }}
+          whileHover={{ scale: 1.3 }}
           src={image}
           alt={alt}
           style={iconStyle}
