@@ -4,9 +4,8 @@ export const cardStyle = {
   textAlign: "left",
   marginLeft: "auto",
   marginRight: "auto",
-  marginTop: "50px",
   height: "360px",
-  width: "285px",
+  width: "275px",
 };
 
 export const imgStyle = {

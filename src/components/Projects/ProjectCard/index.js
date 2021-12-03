@@ -8,7 +8,7 @@ import { cardBodyStyle, cardStyle, imgStyle } from "./styles";
 
 const ProjectCard = ({ title, image, body, link }) => {
   return (
-    <Col xs={12} md={6} lg={4} className="text-center">
+    <Col xs={12} md={6} lg={4} className="p-2">
       <Bounce>
         <MotionDiv>
           <a
