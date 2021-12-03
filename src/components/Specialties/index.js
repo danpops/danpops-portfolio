@@ -6,7 +6,7 @@ import SpecialtyHeader from "./SpecialtyHeader";
 import SpecialtyTabs from "./SpecialtyTabs";
 
 import { marginStyle } from "./styles";
-import { specialtyData } from "../../assets/data/speaciltyData";
+import { specialtyData } from "../../data/speaciltyData";
 
 const Specialties = () => {
   const [key, setKey] = useState("programming");

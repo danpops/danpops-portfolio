@@ -8,7 +8,7 @@ import useSound from "use-sound";
 import Zoom from "react-reveal/Zoom";
 
 import oofSfx from "../../assets/audio/mc_oof.mp3";
-import { typewriterHeader } from "../../assets/data/headerData";
+import { typewriterHeader } from "../../data/headerData";
 
 const Header = () => {
   const [play] = useSound(oofSfx);

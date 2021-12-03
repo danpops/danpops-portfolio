@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 
-import { contactData } from "../../../assets/data/contactData";
+import { contactData } from "../../../data/contactData";
 
 import ContactType from "./ContactType";
 

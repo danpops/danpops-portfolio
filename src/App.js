@@ -8,6 +8,7 @@ import {
   GitHubLink,
   Header,
   Navigation,
+  Projects,
   Specialties,
 } from "./components/Index";
 
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Specialties />
       <GitHubLink />
+      <Projects />
       <Contact />
       <Footer />
     </>
