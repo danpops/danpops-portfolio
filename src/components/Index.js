@@ -2,7 +2,7 @@ import About from "./About";
 import Contact from "./Contact/index";
 import Footer from "./Footer";
 import GitHubLink from "./GitHubLink";
-import Header from "./Header";
+import Hero from "./Hero";
 import Navigation from "./Navigation";
 import Projects from "./Projects";
 import Specialties from "./Specialties";
@@ -12,7 +12,7 @@ export {
   Contact,
   Footer,
   GitHubLink,
-  Header,
+  Hero,
   Navigation,
   Projects,
   Specialties,

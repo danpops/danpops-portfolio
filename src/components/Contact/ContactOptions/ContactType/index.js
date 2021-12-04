@@ -2,6 +2,7 @@ import React from "react";
 import Zoom from "react-reveal/Zoom";
 
 import { MotionDiv } from "../../../Motion";
+import { linkStyle } from "./styles";
 
 const ContactType = ({ icon, link, label, className }) => {
   return (
@@ -11,7 +12,7 @@ const ContactType = ({ icon, link, label, className }) => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: "none" }}
+            style={linkStyle}
             href={link}
           >
             {icon}

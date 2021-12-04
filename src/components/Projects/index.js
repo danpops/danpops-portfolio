@@ -5,10 +5,11 @@ import Zoom from "react-reveal/Zoom";
 import ProjectCard from "./ProjectCard";
 
 import { projectData } from "../../data/projectData";
+import { sectionStyle } from "./styles";
 
 const Projects = () => {
   return (
-    <section className="page-section bg-primary" id="projects">
+    <section className="page-section" style={sectionStyle} id="projects">
       <Container fluid>
         <Row className="justify-content-center">
           <Col lg={8} className="text-center">

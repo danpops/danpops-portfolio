@@ -2,12 +2,12 @@ import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 
-import { imgStyle } from "./styles";
+import { imgStyle, sectionStyle } from "./styles";
 import me from "../../assets/images/me.jpeg";
 
 const About = () => {
   return (
-    <section className="page-section bg-primary" id="about">
+    <section className="page-section" id="about" style={sectionStyle}>
       <Container>
         <Row className="justify-content-center">
           <Col lg={8} className="text-center">

@@ -6,9 +6,9 @@ import {
   Contact,
   Footer,
   GitHubLink,
-  Header,
+  Hero,
   Navigation,
-  Projects,
+  // Projects,
   Specialties,
 } from "./components/Index";
 
@@ -16,11 +16,11 @@ function App() {
   return (
     <>
       <Navigation />
-      <Header />
+      <Hero />
       <About />
       <Specialties />
       <GitHubLink />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <Footer />
     </>

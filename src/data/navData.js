@@ -14,11 +14,11 @@ const navLinks = [
     href: "#github",
     label: "github",
   },
-  {
-    to: "projects",
-    href: "#projects",
-    label: "projects",
-  },
+  // {
+  //   to: "projects",
+  //   href: "#projects",
+  //   label: "projects",
+  // },
   {
     to: "contact",
     href: "#contact",

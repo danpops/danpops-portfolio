@@ -12,11 +12,11 @@ const SpecialtyTabs = ({ data, setKey }) => {
       <Zoom>
         <Nav
           variant="pills"
-          className="flex justify-content-center align-items-start"
+          className="flex justify-content-center align-items-start pill-special  "
         >
           {data.map((item, index) => (
             <MotionDiv>
-              <Nav.Item key={index}>
+              <Nav.Item fill key={index}>
                 <Nav.Link
                   eventKey={item.eventKey}
                   onClick={() => setKey(item.eventKey)}

@@ -11,7 +11,7 @@ h1 {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #007bff;
+  border-color: #336699;
 }
 
 hr.divider.light {
@@ -101,7 +101,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(41, 96, 247, 0.897);
+  background: #336699;
   transition: opacity 0.25s ease;
   text-align: center;
 }
@@ -227,10 +227,10 @@ header.masthead h1 {
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #007bff;
+  color: #336699;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #007bff !important;
+  color: #336699 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -243,7 +243,7 @@ header.masthead h1 {
     /* color: #4a5157; */
   }
   #mainNav .navbar-brand:hover {
-    color: #007bff;
+    color: #336699;
     /* color: rgb(0, 0, 0); */
   }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -251,7 +251,7 @@ header.masthead h1 {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #007bff;
+    color: #336699;
     /* color: rgb(0, 0, 0); */
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -265,12 +265,21 @@ header.masthead h1 {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #007bff;
+    color: #336699;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #007bff;
+    color: #336699;
   }
+}
+
+.nav.nav-pills .nav-link {
+  color: #336699;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: #336699;
+  color: #fff;
 }
