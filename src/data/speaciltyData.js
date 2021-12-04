@@ -96,7 +96,7 @@ const backendItems = [
   },
 ];
 
-const otherItems = [
+const moreItems = [
   {
     image: jest,
     alt: "jest icon",
@@ -140,8 +140,8 @@ export const specialtyData = [
     eventKey: "backend",
   },
   {
-    title: "other",
-    data: otherItems,
-    eventKey: "tools",
+    title: "more",
+    data: moreItems,
+    eventKey: "more",
   },
 ];
