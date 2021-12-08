@@ -10,6 +10,7 @@ const ContactType = ({ icon, link, label, className }) => {
       <div className={className}>
         <MotionDiv>
           <a
+            className="text-muted"
             target="_blank"
             rel="noopener noreferrer"
             style={linkStyle}
