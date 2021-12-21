@@ -40,7 +40,7 @@ const Hero = () => {
                 />
               </h5>
 
-              <Link to="about" smooth={true} duration={1000}>
+              <Link to="about" smooth={true} duration={500}>
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}

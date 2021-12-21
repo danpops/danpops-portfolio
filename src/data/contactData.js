@@ -1,17 +1,20 @@
 import React from "react";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { colors } from "../design";
 
 export const contactData = [
   {
-    className: "col-lg-4 ml-auto text-center mb-5 mb-lg-0",
+    margin: "ml-auto",
     link: "https://www.linkedin.com/in/danpops",
-    label: "linkedin/danpops",
-    icon: <FaLinkedin size={48} className="text-muted mb-3" />,
+    label: "linkedin",
+    icon: (
+      <FaLinkedin size={40} className="m-3 text-muted" color={colors.primary} />
+    ),
   },
   {
-    className: "col-lg-4 mr-auto text-center mb-5 mb-lg-0",
+    margin: "mr-auto",
     link: "mailto:dan-popovic@hotmail.com",
     label: "email",
-    icon: <FaEnvelope size={48} className="mb-3 text-muted" />,
+    icon: <FaEnvelope size={40} className="m-3 text-muted" />,
   },
 ];

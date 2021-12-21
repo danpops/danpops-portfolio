@@ -1,1 +1,1 @@
-export const typewriterHero = ["i build software.", "nice to meet you :) !"];
+export const typewriterHero = ["i develop software.", "nice to meet you :) !"];

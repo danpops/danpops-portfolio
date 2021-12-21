@@ -10,7 +10,7 @@ const ContactOptions = () => {
     <Row>
       {contactData.map((item, index) => (
         <ContactType
-          className={item.className}
+          margin={item.margin}
           link={item.link}
           label={item.label}
           icon={item.icon}
