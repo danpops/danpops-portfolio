@@ -7,7 +7,7 @@ import { linkStyle } from "./styles";
 
 const ContactType = ({ icon, link, label, margin }) => {
   return (
-    <Col xs={4} md={3} lg={2} className={`text-center mt-4 ${margin}`}>
+    <Col xs={12} md={3} lg={2} className={`text-center mt-5 ${margin}`}>
       <Zoom>
         <MotionDiv>
           <a
@@ -18,8 +18,6 @@ const ContactType = ({ icon, link, label, margin }) => {
             href={link}
           >
             {icon}
-            <br />
-            {label}
           </a>
         </MotionDiv>
       </Zoom>
