@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <header className="masthead">
-      <ParticlesBg num={60} type="cobweb" color="#336699" bg={true} />
+      <ParticlesBg num={60} type="cobweb" color={colors.primary} bg={true} />
       <Container className="h-100">
         <Row className="h-100 align-items-center justify-content-center text-center">
           <Col lg={10} className="align-self-end">
