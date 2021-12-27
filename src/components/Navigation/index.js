@@ -5,7 +5,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 import { MotionDiv } from "../Motion";
 
-import navData from "../../data/navData";
+import navData from "../../assets/data/navData";
 import useNavigation from "../../hooks/useNavigation";
 
 const Navigation = () => {

@@ -8,3 +8,17 @@ export const MotionDiv = ({ children }) => {
     </motion.div>
   );
 };
+
+export const MotionButton = ({ style, href, children }) => {
+  return (
+    <motion.button
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className="btn-xl js-scroll-trigger text-lowercase"
+      style={style}
+      href={href}
+    >
+      {children}
+    </motion.button>
+  );
+};

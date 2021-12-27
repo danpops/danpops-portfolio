@@ -1,29 +1,18 @@
 import React from "react";
 import "./assets/css/styles.css";
 
-import {
-  About,
-  Contact,
-  Footer,
-  GitHubLink,
-  Hero,
-  Navigation,
-  // Projects,
-  Specialties,
-} from "./components/Index";
+import { PortfolioContainer } from "./components/Layout";
+import { Hero, About, Specialties, GitHub, Contact } from "./sections";
 
 function App() {
   return (
-    <>
-      <Navigation />
+    <PortfolioContainer>
       <Hero />
       <About />
       <Specialties />
-      <GitHubLink />
-      {/* <Projects /> */}
+      <GitHub />
       <Contact />
-      <Footer />
-    </>
+    </PortfolioContainer>
   );
 }
 
