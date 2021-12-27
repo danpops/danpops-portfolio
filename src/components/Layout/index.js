@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import ParticlesBg from "particles-bg";
 
 import { colors } from "../../design";
-import Navigation from "../Navigation";
-import Footer from "../Footer";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 const HeroContainer = ({ children }) => {
   return (

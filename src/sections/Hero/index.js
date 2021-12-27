@@ -6,7 +6,7 @@ import Zoom from "react-reveal/Zoom";
 
 import { HeroContainer } from "../../components/Layout";
 import { MotionButton } from "../../components/Motion";
-import HeroHeader from "../../components/HeroHeader";
+import { HeroHeader } from "../../components/Hero";
 import TypewriteText from "../../components/TypewriteText";
 
 import { colors } from "../../design";

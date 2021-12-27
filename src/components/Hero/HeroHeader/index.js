@@ -1,8 +1,8 @@
 import React from "react";
 import useSound from "use-sound";
 
-import oofSfx from "../../assets/audio/mc_oof.mp3";
-import { h1Text, h2Text } from "../../assets/text/heroText";
+import oofSfx from "../../../assets/audio/mc_oof.mp3";
+import { h1Text, h2Text } from "../../../assets/text/heroText";
 
 const HeroHeader = () => {
   const [play] = useSound(oofSfx);

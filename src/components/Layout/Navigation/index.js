@@ -3,10 +3,10 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { FiMenu, FiX } from "react-icons/fi";
 
-import { MotionDiv } from "../Motion";
+import { MotionDiv } from "../../Motion";
 
-import navData from "../../assets/data/navData";
-import useNavigation from "../../hooks/useNavigation";
+import navData from "../../../assets/data/navData";
+import useNavigation from "../../../hooks/useNavigation";
 
 const Navigation = () => {
   const { closeNav, expanded, navClass, toggleNav } = useNavigation();
