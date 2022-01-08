@@ -14,7 +14,7 @@ export const MotionButton = ({ style, href, children }) => {
     <motion.button
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
-      className="btn-xl js-scroll-trigger text-lowercase"
+      className="btn-xl js-scroll-trigger text-lowercase shadow-sm"
       style={style}
       href={href}
     >

@@ -6,11 +6,13 @@ import talonsSfx from "../../../assets/audio/largetalons.mp3";
 
 const Footer = () => {
   const [play] = useSound(talonsSfx);
+  const year = new Date().getFullYear();
+
   return (
     <footer className="bg-light py-5">
       <Container>
         <div onClick={play} className="small text-center text-muted">
-          © 2021 - danpops.ca
+          © {year} - danpops.ca
         </div>
       </Container>
     </footer>
