@@ -52,7 +52,7 @@ const ProjectItem = ({
               href={srcCodeLink}
               style={linkStyle}
             >
-              <VscGithubAlt size={35} className="text-white-50 mt-3 mb-2" />
+              <VscGithubAlt size={35} className="text-white-50 my-2" />
             </a>
           </motion.div>
         </Col>
