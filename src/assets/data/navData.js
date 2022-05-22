@@ -10,6 +10,11 @@ const navLinks = [
     label: "specialties",
   },
   {
+    to: "projects",
+    href: "#projects",
+    label: "projects",
+  },
+  {
     to: "github",
     href: "#github",
     label: "github",

@@ -2,7 +2,14 @@ import React from "react";
 import "./assets/css/styles.css";
 
 import { PortfolioContainer } from "./components/Layout";
-import { Hero, About, Specialties, GitHub, Contact } from "./sections";
+import {
+  Hero,
+  About,
+  Specialties,
+  Projects,
+  GitHub,
+  Contact,
+} from "./sections";
 
 function App() {
   return (
@@ -10,6 +17,7 @@ function App() {
       <Hero />
       <About />
       <Specialties />
+      <Projects />
       <GitHub />
       <Contact />
     </PortfolioContainer>
