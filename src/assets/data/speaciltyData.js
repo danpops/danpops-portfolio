@@ -1,18 +1,18 @@
-import bootstrap from "../icons/bootstrap.png";
-import express from "../icons/express.png";
+import appium from "../icons/appium.png";
+import d3 from "../icons/d3.png";
+import cloudformation from "../icons/cloudformation.png";
 import github from "../icons/github.png";
 import graphql from "../icons/graphql.png";
 import java from "../icons/java.png";
 import javascript from "../icons/javascript.png";
 import jest from "../icons/jest.png";
-import mongo from "../icons/mongo.png";
 import native from "../icons/reactnative.png";
+import neo4j from "../icons/neo4j.png";
 import nodejs from "../icons/nodejs.png";
-import postman from "../icons/postman.png";
 import python from "../icons/python.png";
 import reactjs from "../icons/reactjs.png";
 import redux from "../icons/redux.png";
-import storybook from "../icons/storybook.png";
+import serverless from "../icons/serverless.png";
 import typescript from "../icons/typescript.png";
 
 const progammingItems = [
@@ -50,22 +50,22 @@ const frontendItems = [
     href: "https://reactjs.org",
   },
   {
-    image: redux,
-    alt: "redux icon",
-    name: "Redux",
-    href: "https://redux.js.org",
-  },
-  {
     image: native,
     alt: "react-native icon",
     name: "React Native",
     href: "https://reactnative.dev",
   },
   {
-    image: bootstrap,
-    alt: "bootstrap icon",
-    name: "Bootstrap",
-    href: "https://getbootstrap.com",
+    image: redux,
+    alt: "redux icon",
+    name: "Redux",
+    href: "https://redux.js.org",
+  },
+  {
+    image: d3,
+    alt: "d3 icon",
+    name: "D3.js",
+    href: "https://d3js.org",
   },
 ];
 
@@ -83,16 +83,16 @@ const backendItems = [
     href: "https://graphql.org",
   },
   {
-    image: express,
-    alt: "expressjs icon",
-    name: "ExpressJS",
-    href: "https://expressjs.com",
+    image: serverless,
+    alt: "serverless icon",
+    name: "Serverless",
+    href: "https://www.serverless.com",
   },
   {
-    image: mongo,
-    alt: "mongodb icon",
-    name: "MongoDB",
-    href: "https://www.mongodb.com/",
+    image: cloudformation,
+    alt: "cloudformation icon",
+    name: "AWS CloudFormation",
+    href: "https://aws.amazon.com/cloudformation/",
   },
 ];
 
@@ -104,22 +104,22 @@ const moreItems = [
     href: "https://jestjs.io/",
   },
   {
-    image: storybook,
-    alt: "storybook icon",
-    name: "StorybookJS",
-    href: "https://storybook.js.org/",
+    image: appium,
+    alt: "appium icon",
+    name: "Appium",
+    href: "https://appium.io",
+  },
+  {
+    image: neo4j,
+    alt: "neo4j icon",
+    name: "Neo4j",
+    href: "https://neo4j.com/brand/",
   },
   {
     image: github,
     alt: "github icon",
     name: "GitHub",
     href: "https://github.com",
-  },
-  {
-    image: postman,
-    alt: "postman icon",
-    name: "Postman",
-    href: "https://www.postman.com",
   },
 ];
 
