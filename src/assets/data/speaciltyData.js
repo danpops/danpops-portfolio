@@ -77,12 +77,6 @@ const backendItems = [
     href: "https://nodejs.org/en/",
   },
   {
-    image: graphql,
-    alt: "graphql icon",
-    name: "GraphQL",
-    href: "https://graphql.org",
-  },
-  {
     image: serverless,
     alt: "serverless icon",
     name: "Serverless",
@@ -93,6 +87,12 @@ const backendItems = [
     alt: "cloudformation icon",
     name: "CloudFormation",
     href: "https://aws.amazon.com/cloudformation/",
+  },
+  {
+    image: graphql,
+    alt: "graphql icon",
+    name: "GraphQL",
+    href: "https://graphql.org",
   },
 ];
 
