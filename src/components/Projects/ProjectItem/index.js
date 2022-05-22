@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
+import { VscGithubAlt } from "react-icons/vsc";
 import {
   linkStyle,
   projectIconStyle,
@@ -37,7 +37,9 @@ const ProjectItem = ({
         </motion.div>
         <br />
       </Row>
-      <Row className="justify-content-center">{description}</Row>
+      <Row className="justify-content-center">
+        {<p className="mt-3 text-white-50 mb-4">{description}</p>}
+      </Row>
       <Row
         className="justify-content-center"
         style={projectSourceContainerStyle}
@@ -50,7 +52,7 @@ const ProjectItem = ({
               href={srcCodeLink}
               style={linkStyle}
             >
-              <FaGithub size={45} className="text-white mt-3 mb-2" />
+              <VscGithubAlt size={35} className="text-white-50 mt-3 mb-2" />
             </a>
           </motion.div>
         </Col>
