@@ -91,7 +91,7 @@ const backendItems = [
   {
     image: cloudformation,
     alt: "cloudformation icon",
-    name: "AWS CloudFormation",
+    name: "CloudFormation",
     href: "https://aws.amazon.com/cloudformation/",
   },
 ];
