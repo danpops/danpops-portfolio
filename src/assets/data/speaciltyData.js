@@ -1,5 +1,4 @@
 import appium from "../icons/appium.png";
-import d3 from "../icons/d3.png";
 import cloudformation from "../icons/cloudformation.png";
 import github from "../icons/github.png";
 import graphql from "../icons/graphql.png";
@@ -13,6 +12,7 @@ import python from "../icons/python.png";
 import reactjs from "../icons/reactjs.png";
 import redux from "../icons/redux.png";
 import serverless from "../icons/serverless.png";
+import swm from "../icons/swm.png";
 import typescript from "../icons/typescript.png";
 
 const progammingItems = [
@@ -62,10 +62,10 @@ const frontendItems = [
     href: "https://redux.js.org",
   },
   {
-    image: d3,
-    alt: "d3 icon",
-    name: "D3.js",
-    href: "https://d3js.org",
+    image: swm,
+    alt: "swm icon",
+    name: "Reanimated",
+    href: "https://docs.swmansion.com/react-native-reanimated/",
   },
 ];
 
