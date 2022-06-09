@@ -113,7 +113,7 @@ const moreItems = [
     image: neo4j,
     alt: "neo4j icon",
     name: "Neo4j",
-    href: "https://neo4j.com/brand/",
+    href: "https://neo4j.com/",
   },
   {
     image: github,
