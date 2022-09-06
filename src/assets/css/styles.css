@@ -65,7 +65,7 @@ header.masthead h1 {
   }
 }
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  header.h1 {
     font-size: 3.5rem;
   }
 }
